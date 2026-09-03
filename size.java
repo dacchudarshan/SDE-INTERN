@@ -1,4 +1,4 @@
-/*class size 
+class size 
 {
     public static void main(String[] args)
      {
@@ -7,9 +7,9 @@
         System.out.println("Range:" +Integer.MIN_VALUE);
         System.out.println("Range:" +Integer.SIZE+ "bits");
     }
-}*/
+}
 
-/*class size
+class size
 {
     public static void main(String[] args) 
     {
@@ -19,7 +19,7 @@
         value++;
         System.out.println(value);
     }
-}*/
+}
 
 class size
 {
