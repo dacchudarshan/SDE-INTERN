@@ -1,5 +1,5 @@
 // using + and - methods
-/*public class darshu 
+public class darshu 
 {
     public static void main(String[]args)
     {
@@ -14,7 +14,7 @@
     }
     
 }
-*/
+
 
 //uisng * and / methods
 public class darshu
@@ -32,8 +32,7 @@ public class darshu
         System.out.println("after swapping a = " + a + " b = " + b);
     }
 }
-/* 
-//using XOR method
+///using XOR method
 public class darshu
 {
     public static void main(String[]args)
@@ -49,4 +48,4 @@ public class darshu
         System.out.println("after swapping a = " + a + " b = " + b);
     }   
 
-}*/
+}
