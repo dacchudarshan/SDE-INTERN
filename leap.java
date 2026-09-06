@@ -35,86 +35,86 @@ public class leap
 // }
 
 
-//Check whether a year is a Leap Year using Nested if
-// class Leapyear 
-// {
-//     public static void main(String[] args) 
-//     {
-//         System.err.println("2. Check whether a year is a Leap Year using Nested if: ");
-//         Scanner sc = new Scanner(System.in);
+Check whether a year is a Leap Year using Nested if
+class Leapyear 
+{
+    public static void main(String[] args) 
+    {
+        System.err.println("2. Check whether a year is a Leap Year using Nested if: ");
+        Scanner sc = new Scanner(System.in);
 
-//         System.out.print("Enter year: ");
-//         int year = sc.nextInt();
+        System.out.print("Enter year: ");
+        int year = sc.nextInt();
 
-//         if (year % 4 == 0) {
+        if (year % 4 == 0) {
 
-//             if (year % 100 == 0) 
-//                 {
+            if (year % 100 == 0) 
+                {
 
-//                 if (year % 400 == 0) 
-//                 {
-//                     System.out.println(year + " is a Leap Year");
-//                 }
-//                 else 
-//                 {
-//                     System.out.println(year + " is Not a Leap Year");
-//                 }
+                if (year % 400 == 0) 
+                {
+                    System.out.println(year + " is a Leap Year");
+                }
+                else 
+                {
+                    System.out.println(year + " is Not a Leap Year");
+                }
 
-//                 }
-//                  else 
-//                 {
-//                     System.out.println(year + " is a Leap Year");
-//                 }
+                }
+                 else 
+                {
+                    System.out.println(year + " is a Leap Year");
+                }
 
-//                 }
-//                 else 
-//                 {
-//                     System.out.println(year + " is Not a Leap Year");
-//                 }
+                }
+                else 
+                {
+                    System.out.println(year + " is Not a Leap Year");
+                }
 
-//                 sc.close();
-//     }
-// }
+                sc.close();
+    }
+}
 
 //Given two strings, check whether they contain the same characters with the 
 //same count, but the order can be different.
 
-// class AnagramCheck 
-// {
-//     public static void main(String[] args)
-//     {
-//         System.err.println("3. question is about Anagrams: ");
-//         Scanner sc = new Scanner(System.in);
+class AnagramCheck 
+{
+    public static void main(String[] args)
+    {
+        System.err.println("3. question is about Anagrams: ");
+        Scanner sc = new Scanner(System.in);
 
-//         System.out.print("Enter first string: ");
-//         String str1 = sc.nextLine();
+        System.out.print("Enter first string: ");
+        String str1 = sc.nextLine();
 
-//         System.out.print("Enter second string: ");
-//         String str2 = sc.nextLine();
+        System.out.print("Enter second string: ");
+        String str2 = sc.nextLine();
 
-//         if (str1.length() != str2.length()) 
-//             {
-//             System.out.println("They are not same");
-//             }
+        if (str1.length() != str2.length()) 
+            {
+            System.out.println("They are not same");
+            }
         
-//             else 
-//             {
+            else 
+            {
 
-//             char[] a = str1.toCharArray();
-//             char[] b = str2.toCharArray();
+            char[] a = str1.toCharArray();
+            char[] b = str2.toCharArray();
 
-//             java.util.Arrays.sort(a);
-//             java.util.Arrays.sort(b);
+            java.util.Arrays.sort(a);
+            java.util.Arrays.sort(b);
 
-//             if (java.util.Arrays.equals(a, b)) 
-//                 {
-//                 System.out.println("They are same (Anagram)");
-//                 }
-//             else 
-//                 {
-//                 System.out.println("They are not same");
-//                 }
-//             }
+            if (java.util.Arrays.equals(a, b)) 
+                {
+                System.out.println("They are same (Anagram)");
+                }
+            else 
+                {
+                System.out.println("They are not same");
+                }
+            }
 
 //         sc.close();
 //     }
