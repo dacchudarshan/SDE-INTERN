@@ -12,21 +12,26 @@ public class leap
         System.out.print("Enter a number: ");
         String num = sc.next();
 
-        if (num.matches("[01]+")) {
+        if (num.matches("[01]+")) 
+            {
             System.out.println("Binary");
-        }
-        else if (num.matches("[0-7]+")) {
+            }
+        else if (num.matches("[0-7]+")) 
+            {
             System.out.println("Octal");
-        }
-        else if (num.matches("[0-9]+")) {
+            }
+        else if (num.matches("[0-9]+")) 
+            {
             System.out.println("Decimal");
-        }
-        else if (num.matches("[0-9A-Fa-f]+")) {
+            }
+        else if (num.matches("[0-9A-Fa-f]+")) 
+            {
             System.out.println("Hexadecimal");
-        }
-        else {
+            }
+        else 
+            {
             System.out.println("Invalid number");
-        }
+            }
 
         sc.close();
     }
