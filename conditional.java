@@ -3,51 +3,51 @@ public class conditional
 {
     public static void main(String[] args) 
     {
-//     //     Scanner sc = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
 
-//     //     System.out.print("Enter your age: ");
-//     //     int age = sc.nextInt();
+        System.out.print("Enter your age: ");
+        int age = sc.nextInt();
 
-//     //     if (age == 18)
-//     //     {
-//     //         System.out.println("Eligible to vote");
-//     //     }
-//     //     else if (age < 18 && age > 0)
-//     //     {
-//     //         System.out.println("not eligible to vote");
-//     //     }
-//     //     else
-//     //     {
-//     //         System.out.println("child is not eligible to vote");
-//     //     }
-//     //    sc.close();
+        if (age == 18)
+        {
+            System.out.println("Eligible to vote");
+        }
+        else if (age < 18 && age > 0)
+        {
+            System.out.println("not eligible to vote");
+        }
+        else
+        {
+            System.out.println("child is not eligible to vote");
+        }
+       sc.close();
 
-//         //     Scanner sc = new Scanner(System.in);
+            Scanner sc = new Scanner(System.in);
 
-//         //     System.out.print("Enter your age: ");
-//         //     int age = sc.nextInt();
+            System.out.print("Enter your age: ");
+            int age = sc.nextInt();
 
-//         //     System.out.print("Are you a citizen?:yes/no: ");
-//         //     boolean citizen = sc.nextBoolean();
+            System.out.print("Are you a citizen?:yes/no: ");
+            boolean citizen = sc.nextBoolean();
             
-//         //     if (age >= 18)
-//         //     {
-//         //         if (citizen)
-//         //         {
-//         //             System.out.println("Eligible to vote");
-//         //         }
-//         //         else
-//         //         {
+            if (age >= 18)
+            {
+                if (citizen)
+                {
+                    System.out.println("Eligible to vote");
+                }
+                else
+                {
 
-//         //             System.out.println("Not eligible to vote");
-//         //         }
-//         //     }
-//         //     else
-//         //     {
-//         //         System.out.println("Child is not eligible to vote");
-//         // }
-// {
-//     public static void main(String[] args) 
+                    System.out.println("Not eligible to vote");
+                }
+            }
+            else
+            {
+                System.out.println("Child is not eligible to vote");
+        }
+{
+    public static void main(String[] args) 
 //     
 //     // switch case
             
@@ -84,44 +84,44 @@ public class conditional
     }
 }
 
-// class conditional 
-// {
-//     public static void main(String[] args) 
-//     {
-//         Scanner sc = new Scanner(System.in);
-//         System.out.print("Enter your age: ");
-//         int age = sc.nextInt();
+class conditional 
+{
+    public static void main(String[] args) 
+    {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter your age: ");
+        int age = sc.nextInt();
 
-//         String result = (age >= 18) ? "YES" : "NO";
+        String result = (age >= 18) ? "YES" : "NO";
 
-//         switch (result)
-//         {
-//             case "YES":
-//                 System.out.println("You are eligible to vote.");
-//                 break;
-//             case "NO":
-//                 System.out.println("You are not eligible to vote.");
-//                 break;
-//         }
-//     }
-// }
+        switch (result)
+        {
+            case "YES":
+                System.out.println("You are eligible to vote.");
+                break;
+            case "NO":
+                System.out.println("You are not eligible to vote.");
+                break;
+        }
+    }
+}
 
-// class conditional 
-// {
-//     public static void main(String[] args) 
-//     {
-//         System.out.println("combine the conditions : ");
+class conditional 
+{
+    public static void main(String[] args) 
+    {
+        System.out.println("combine the conditions : ");
 
-//         int age = 25;
-//         boolean citizen = true;
+        int age = 25;
+        boolean citizen = true;
 
-//         if (age >= 18 && citizen)
-//         {
-//             System.out.println("Eligible to vote");
-//         }
-//         else
-//         {
-//             System.out.println("Not eligible to vote");
-//         }
-//     }
-// }
+        if (age >= 18 && citizen)
+        {
+            System.out.println("Eligible to vote");
+        }
+        else
+        {
+            System.out.println("Not eligible to vote");
+        }
+    }
+}
