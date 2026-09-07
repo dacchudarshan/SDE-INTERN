@@ -1,4 +1,4 @@
-/*public class challenges 
+public class challenges 
 {
     public static void main(String[]args)
     {
@@ -15,7 +15,7 @@
     }
     
 }
-*/
+
 /* 
 class challenges
 {
@@ -29,9 +29,7 @@ class challenges
 
     }
 }
-
-*/
-/* 
+ 
 class challenges
 {
     static int add()
@@ -42,8 +40,8 @@ class challenges
     {
         System.out.println(add());
     }
-}*/
-/* 
+}
+ 
 class challenges
 {
     public static void main(String[] args)
@@ -53,15 +51,15 @@ class challenges
         System.out.println("age: "+age);
 
     }
-}*/
-/*class challenges
+}
+class challenges
 {
     static int age = 10;
     public static void main(String[] args) 
     {
         System.out.println("age: "+ age);
     }
-}*/
+}
 
 class challenges
 {
