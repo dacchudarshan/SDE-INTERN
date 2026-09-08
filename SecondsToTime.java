@@ -91,7 +91,7 @@
 //     }
 // }
 
-//converts days into years and two months 550;
+// converts days into years and two months 550;
 // class DaysToYearsMonths 
 // {
 //     public static void main(String[] args) 
@@ -148,22 +148,22 @@
 //     }
 // }
 
-// // cinima tikect booking
-// class CinemaSeatingArrangement 
-// {
-//     public static void main(String[] args) 
-//     {
+// cinima tikect booking
+class CinemaSeatingArrangement 
+{
+    public static void main(String[] args) 
+    {
 
-//         int audience = 125;
-//         int seatsPerRow = 12;
+        int audience = 125;
+        int seatsPerRow = 12;
 
-//         int completeRows = audience / seatsPerRow;
-//         int peopleInLastRow = audience % seatsPerRow;
+        int completeRows = audience / seatsPerRow;
+        int peopleInLastRow = audience % seatsPerRow;
 
-//         System.out.println("Complete Rows = " + completeRows);
-//         System.out.println("People in Last Row = " + peopleInLastRow);
-//     }
-// }
+        System.out.println("Complete Rows = " + completeRows);
+        System.out.println("People in Last Row = " + peopleInLastRow);
+    }
+}
 
 
 
