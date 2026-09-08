@@ -118,22 +118,22 @@
 
 
 
-// // cinema seat booking
-// class CinemaSeats 
-// {
-//     public static void main(String[] args) 
-//     {
+// cinema seat booking
+class CinemaSeats 
+{
+    public static void main(String[] args) 
+    {
 
-//         int audience = 130;
-//         int seatsPerRow = 12;
+        int audience = 130;
+        int seatsPerRow = 12;
 
-//         int fullRows = audience / seatsPerRow;
-//         int remainingSeats = audience % seatsPerRow;
+        int fullRows = audience / seatsPerRow;
+        int remainingSeats = audience % seatsPerRow;
 
-//         System.out.println("Full Rows: " + fullRows);
-//         System.out.println("Remaining Seats: " + remainingSeats);
-//     }
-// }
+        System.out.println("Full Rows: " + fullRows);
+        System.out.println("Remaining Seats: " + remainingSeats);
+    }
+}
 
 //stack overflow
 class StackOverflow {
