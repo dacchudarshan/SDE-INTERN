@@ -135,18 +135,18 @@
 //     }
 // }
 
-// //stack overflow
-// class StackOverflow {
+//stack overflow
+class StackOverflow {
 
-//     static void show() {
-//         System.out.println("Calling show()");
-//         show(); // Method calls itself again
-//     }
+    static void show() {
+        System.out.println("Calling show()");
+        show(); // Method calls itself again
+    }
 
-//     public static void main(String[] args) {
-//         show();
-//     }
-// }
+    public static void main(String[] args) {
+        show();
+    }
+}
 
 // cinima tikect booking
 class CinemaSeatingArrangement 
