@@ -92,25 +92,25 @@
 // }
 
 // converts days into years and two months 550;
-// class DaysToYearsMonths 
-// {
-//     public static void main(String[] args) 
-//     {
+class DaysToYearsMonths 
+{
+    public static void main(String[] args) 
+    {
 
-//         int totalDays = 550;
+        int totalDays = 550;
 
-//         int years = totalDays / 365;
-//         int remainingDays = totalDays % 365;
+        int years = totalDays / 365;
+        int remainingDays = totalDays % 365;
 
-//         int months = remainingDays / 30;
-//         int days = remainingDays % 30;
+        int months = remainingDays / 30;
+        int days = remainingDays % 30;
 
-//         System.err.println("TotalDays: "+totalDays);
-//         System.out.println("Years: " + years);
-//         System.out.println("Months: " + months);
-//         System.out.println("Days: " + days);
-//     }
-// }
+        System.err.println("TotalDays: "+totalDays);
+        System.out.println("Years: " + years);
+        System.out.println("Months: " + months);
+        System.out.println("Days: " + days);
+    }
+}
 
 // can you do n number of swapping
 // N numbers without for****, without array,
