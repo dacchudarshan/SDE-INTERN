@@ -1,20 +1,20 @@
-// second to time not include days 
-// public class SecondsToTime 
-// {
-//     public static void main(String[] args) 
-//     {
+//second to time not include days 
+public class SecondsToTime 
+{
+    public static void main(String[] args) 
+    {
 
-//         int totalSeconds = 2600;
+        int totalSeconds = 2600;
 
-//         int hours = totalSeconds / 3600;
-//         int minutes = (totalSeconds % 3600) / 60;
-//         int seconds = totalSeconds % 60;
+        int hours = totalSeconds / 3600;
+        int minutes = (totalSeconds % 3600) / 60;
+        int seconds = totalSeconds % 60;
 
-//         System.out.println(hours + " hours");
-//         System.out.println(minutes + " minutes");
-//         System.out.println(seconds + " seconds");
-//     }
-// }
+        System.out.println(hours + " hours");
+        System.out.println(minutes + " minutes");
+        System.out.println(seconds + " seconds");
+    }
+}
 
 //sec to time include days 
 class SecondsTodays
