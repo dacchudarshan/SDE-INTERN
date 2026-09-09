@@ -1,4 +1,4 @@
-/*public class days 
+public class days 
 {
     public static void main(String[] args) {
         {
@@ -11,7 +11,7 @@
             System.err.println("true");
         }
     }
-}*/
+}
 // why variable even though we can print value directly 
 //because for feature use if i want you change data then i cant change all the 100 entires so we need variable then below is the code demonsatrate 
 class days
