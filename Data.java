@@ -30,7 +30,7 @@
     }
 }*/
 // integer types can be represented in diff number systems
-/*class days
+class days
 {
     public static void main(String[] args) 
     {
