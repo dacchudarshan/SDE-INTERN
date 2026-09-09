@@ -45,7 +45,7 @@
         System.out.println(b4);
 
     }   
-}*/
+}
 // java demonstrates the use of diff number system 
 public class Data 
 {
