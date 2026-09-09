@@ -19,55 +19,55 @@
 //     }
 // }
 
-// import java.util.Scanner;
-// class NumberSystems
-// {
-//     public static void main(String[] args)
-//     {
-//         Scanner sc = new Scanner(System.in);
+import java.util.Scanner;
+class NumberSystems
+{
+    public static void main(String[] args)
+    {
+        Scanner sc = new Scanner(System.in);
 
-//         System.out.println("Choose Number System:");
-//         System.out.println("1. Binary");
-//         System.out.println("2. Octal");
-//         System.out.println("3. Decimal");
-//         System.out.println("4. Hexadecimal");
+        System.out.println("Choose Number System:");
+        System.out.println("1. Binary");
+        System.out.println("2. Octal");
+        System.out.println("3. Decimal");
+        System.out.println("4. Hexadecimal");
 
-//         System.out.print("Enter your choice: ");
-//         int choice = sc.nextInt();
+        System.out.print("Enter your choice: ");
+        int choice = sc.nextInt();
 
-//         System.out.print("Enter the number: ");
-//         String number = sc.next();
+        System.out.print("Enter the number: ");
+        String number = sc.next();
 
-//         int result;
+        int result;
 
-//         if (choice == 1)
-//         {
-//             result = Integer.parseInt(number, 2);
-//             System.out.println("Decimal = " + result);
-//         }
-//         else if (choice == 2)
-//         {
-//             result = Integer.parseInt(number, 8);
-//             System.out.println("Decimal = " + result);
-//         }
-//         else if (choice == 3)
-//         {
-//             result = Integer.parseInt(number, 10);
-//             System.out.println("Decimal = " + result);
-//         }
-//         else if (choice == 4)
-//         {
-//             result = Integer.parseInt(number, 16);
-//             System.out.println("Decimal = " + result);
-//         }
-//         else
-//         {
-//             System.out.println("Invalid choice");
-//         }
+        if (choice == 1)
+        {
+            result = Integer.parseInt(number, 2);
+            System.out.println("Decimal = " + result);
+        }
+        else if (choice == 2)
+        {
+            result = Integer.parseInt(number, 8);
+            System.out.println("Decimal = " + result);
+        }
+        else if (choice == 3)
+        {
+            result = Integer.parseInt(number, 10);
+            System.out.println("Decimal = " + result);
+        }
+        else if (choice == 4)
+        {
+            result = Integer.parseInt(number, 16);
+            System.out.println("Decimal = " + result);
+        }
+        else
+        {
+            System.out.println("Invalid choice");
+        }
 
-//         sc.close();
-//     }
-// }
+        sc.close();
+    }
+}
 
 import java.util.Scanner;
 
