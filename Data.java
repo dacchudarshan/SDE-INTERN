@@ -28,7 +28,7 @@
         System.out.println(age);
         System.out.println(age);
     }
-}*/
+}
 // integer types can be represented in diff number systems
 class days
 {
