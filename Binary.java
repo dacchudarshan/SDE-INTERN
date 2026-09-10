@@ -17,7 +17,6 @@ public class floa
 
         System.err.println("values: "+e%f);
 
-
     }
     
 }
