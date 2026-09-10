@@ -83,10 +83,10 @@ class operators
     public static void main(String[] args)
     {
 
-        // int a = 3;
-        // int b = 4;
-        // System.err.println(a++ + b++ + a++ );
-        // System.out.println(a);
+        int a = 3;
+        int b = 4;
+        System.err.println(a++ + b++ + a++ );
+        System.out.println(a);
 
         int a = 5;
         int b = 11;
