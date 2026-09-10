@@ -23,7 +23,7 @@ public class floa
 }
 
 
-public class Binary
+class Binary
 {
     public static void main(String[] args)
     {
