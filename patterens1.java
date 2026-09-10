@@ -8,24 +8,24 @@ public class patterens1
         System.out.print("Enter the Number : ");
         int num = sc.nextInt();
 
-        // while (num>0)// 54321
-        // {
-        //     int digit = num % 10; 
-        //     num = num / 10;
-        //     System.out.println(digit);
-        // }
-        // System.err.println("");
-        // System.out.println(num);
-        // System.out.println("loop ends if num = 0");
+        while (num>0)// 54321
+        {
+            int digit = num % 10; 
+            num = num / 10;
+            System.out.println(digit);
+        }
+        System.err.println("");
+        System.out.println(num);
+        System.out.println("loop ends if num = 0");
 
-        // // count the number of digits in a number
-        // int count = 0;
-        // while (num>0)
-        // {
-        //     num = num / 10;
-        //     count++;
-        // }
-        // System.out.println("The number of digits in the number is: " + count);
+        // count the number of digits in a number
+        int count = 0;
+        while (num>0)
+        {
+            num = num / 10;
+            count++;
+        }
+        System.out.println("The number of digits in the number is: " + count);
 
         // using % and /
         int count1 = 0;
