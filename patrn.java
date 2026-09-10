@@ -41,18 +41,18 @@ public class patrn
     //         System.out.println();
     //     }
 
-    // // 4) 5 cross 5 box print 1 coloum all and second coloum 1 less and so on
-    //    int count = 0;
-    //     for (int i = 1; i <= 5; i++)
-    //     {
-    //         for (int j = 1; j <= i; j++)
-    //         {   
-    //             count++;
-    //             System.out.print(i+j + " ");  
-    //         }   
-    //         System.out.println();
+    // 4) 5 cross 5 box print 1 coloum all and second coloum 1 less and so on
+       int count = 0;
+        for (int i = 1; i <= 5; i++)
+        {
+            for (int j = 1; j <= i; j++)
+            {   
+                count++;
+                System.out.print(i+j + " ");  
+            }   
+            System.out.println();
         
-    //     }
+        }
 
     // 5). question
        for (int i = 1; i <= 5; i++)
