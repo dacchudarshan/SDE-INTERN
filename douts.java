@@ -27,13 +27,14 @@ public class douts
         for(int i = 1; i<= 6; i++)
         {   
             fact = fact * i;
-            System.err.println("factorial number is: "+fact);
+        }
+        System.err.println("factorial number is: "+fact);
 
         }
 
 
     }
-}
+
 
     
         

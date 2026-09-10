@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 // extra memory using 3 number
 public class SwapNumbers 
 {
@@ -7,12 +8,19 @@ public class SwapNumbers
         int a = 10;
         int b = 20;
         int c = 30;
+=======
+
+>>>>>>> Stashed changes
 
         System.err.println("a: "+a);
         System.err.println("b: "+b);
         System.err.println("c: "+c);
 
+<<<<<<< Updated upstream
         System.out.println("Ofter Swapiing: " );
+=======
+//         System.out.println("After swapping: " );
+>>>>>>> Stashed changes
         
         int temp = a;
 
@@ -26,12 +34,21 @@ public class SwapNumbers
     }
 }
 
+<<<<<<< Updated upstream
 without extra memory 3 number 
 public class SwapNumbers 
 {
     public static void main(String[] args) 
     {
         System.err.println("Before swalppping : ");
+=======
+// without extra memory 3 number 
+// public class SwapNumbers 
+// {
+//     public static void main(String[] args) 
+//     {
+//         System.err.println("Before swapping: ");
+>>>>>>> Stashed changes
 
         int a = 10;
         int b = 20;
@@ -41,7 +58,11 @@ public class SwapNumbers
         System.err.println("b: "+b);
         System.err.println("c: "+c);
 
+<<<<<<< Updated upstream
         System.out.println("Ofter Swapiing: " );
+=======
+//         System.out.println("After swapping: " );
+>>>>>>> Stashed changes
         
         a = a + b + c;
         c = a - b - c;
@@ -56,6 +77,7 @@ public class SwapNumbers
 
 // four number swapping with extra memory
 
+<<<<<<< Updated upstream
 public class SwapNumbers 
 {
     public static void main(String[] args) 
@@ -72,6 +94,24 @@ public class SwapNumbers
         System.err.println("c: "+d);
 
         System.out.println("Ofter Swapiing: " );
+=======
+// public class SwapNumbers 
+// {
+//     public static void main(String[] args) 
+//     {
+//         System.err.println("Before swapping: ");
+//         int a = 10;
+//         int b = 20;
+//         int c = 30;
+//         int d = 40;
+
+//         System.err.println("a: "+a);
+//         System.err.println("b: "+b);
+//         System.err.println("c: "+c);
+//         System.err.println("d: "+d);
+
+//         System.out.println("After swapping: " );
+>>>>>>> Stashed changes
         
         int temp = a;
 
@@ -80,12 +120,21 @@ public class SwapNumbers
         c = d;
         d = temp;
 
+<<<<<<< Updated upstream
         System.err.println("a: "+a);
         System.err.println("b: "+b);
         System.err.println("c: "+c);
         System.err.println("c: "+d);
     }
 }
+=======
+//         System.err.println("a: "+a);
+//         System.err.println("b: "+b);
+//         System.err.println("c: "+c);
+//         System.err.println("d: "+d);
+//     }
+// }
+>>>>>>> Stashed changes
 
 // Without extra memory using 4 number 
 
@@ -93,7 +142,7 @@ public class SwapNumbers
 {
     public static void main(String[] args) 
     {
-        System.err.println("Before swalppping: ");
+        System.err.println("Before swapping: ");
         int a = 8;
         int b = 15;
         int c = 9;
@@ -102,8 +151,8 @@ public class SwapNumbers
         System.err.println("a: "+a);
         System.err.println("b: "+b);
         System.err.println("c: "+c);
-        System.err.println("c: "+d);
-        System.out.println("Ofter Swapiing: " );
+        System.err.println("d: "+d);
+        System.out.println("After swapping: " );
         
         a = a + b + c + d;
         d = a - b - c - d;
@@ -114,6 +163,6 @@ public class SwapNumbers
         System.err.println("a: "+a);
         System.err.println("b: "+b);
         System.err.println("c: "+c);
-        System.err.println("c: "+d);
+        System.err.println("d: "+d);
     }
 }
