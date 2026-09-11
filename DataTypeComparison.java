@@ -61,7 +61,7 @@ public class DataTypeComparison
 
         System.out.println("=====LONG + ALL=====");
 
-        System.out.println("long + byte    = " + (l + b));
+        System.out.println("long + byte    = " + (l + b));   
         System.out.println("long + short   = " + (l + s));
         System.out.println("long + int     = " + (l + i));
         System.out.println("long + float   = " + (l + f));
