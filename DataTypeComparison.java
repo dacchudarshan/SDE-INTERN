@@ -7,7 +7,7 @@ public class DataTypeComparison
         int i = 30;                 
         long l = 40L;                  
         float f = 50.5f;           
-        double d = 60.5;            
+        double d = 60.5;                 
         char c = 65; // 'A'= 65 in both ASCII & Unicode value   
 
         // 1. byte compared with all
