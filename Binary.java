@@ -5,7 +5,7 @@ public class floa
         float a = 20.5f;
         float b = 3.5f;
 
-        System.err.println("values: "+a%b);
+        System.err.println("values: "+a%b);   
 
         double c = 20.5f;
         double d = 3.5f;
