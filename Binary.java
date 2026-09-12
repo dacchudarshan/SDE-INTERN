@@ -1,4 +1,4 @@
-public class floa
+public class floa 
 {
     public static void main(String[]args)
     {
