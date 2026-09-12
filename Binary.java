@@ -13,12 +13,12 @@ public class floa
         System.err.println("values: "+a%b);
 
         int e= 20;
-        int f = 5;
+        int f = 5; 
 
         System.err.println("values: "+e%f);
 
     }
-    
+     
 }
 
 class Binary
