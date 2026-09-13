@@ -21,6 +21,7 @@ public class floa
      
 }
 
+
 class Binary
 {
     public static void main(String[] args)
