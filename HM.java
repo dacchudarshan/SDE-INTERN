@@ -13,7 +13,7 @@ public class HM
 
         // // First reverse: 54321 -> 12345
         // while (num > 0) {
-        //     int digit = num % 10;
+        //     int digit = num % 10; 
         //     reverse = reverse * 10 + digit;
         //     num = num / 10;
         // }
