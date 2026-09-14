@@ -7,7 +7,7 @@ public class HM
         // Scanner sc = new Scanner(System.in);
 
         // System.out.print("Enter number: ");
-        // int num = sc.nextInt();
+        // int num = sc.nextInt(); 
 
         // int reverse = 0;
 
