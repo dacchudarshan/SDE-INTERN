@@ -77,7 +77,7 @@ public class HM
         //     reverse = reverse / 10;
         // }
 
-        // System.out.println("Output: " + result);
+        // System.out.println("Output: " + result); 
 
         // //4.armstrong number
         // Scanner sc = new Scanner(System.in);
