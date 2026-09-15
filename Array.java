@@ -9,7 +9,7 @@ public class Array
 
     //    System.err.println("arr: "+arr); // hash value
     //    System.err.println("arr: "+Arrays.toString(arr));// defeault value 00
-
+     
        int arr1[] = {10, 20 ,30};
 
        System.err.println("arr: "+arr1); // hash value
