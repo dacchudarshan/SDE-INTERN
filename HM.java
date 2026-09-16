@@ -2,14 +2,14 @@ public class HM
 {
     public static void main(String[] args) 
     {
-        // //1.reverse a number twice to get the original number
+        //1.reverse a number twice to get the original number
 
-        // Scanner sc = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
 
-        // System.out.print("Enter number: ");
-        // int num = sc.nextInt(); 
+        System.out.print("Enter number: ");
+        int num = sc.nextInt(); 
 
-        // int reverse = 0;
+        int reverse = 0;
 
         // // First reverse: 54321 -> 12345
         // while (num > 0) {
