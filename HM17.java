@@ -224,17 +224,17 @@ public class HM17
     //         System.out.println( " is not a palindrome number");
     // }
 
-    // public static void main(String[] args) 
-    //     {
-    //         //call instance method using object
-    //         HM17 darshu = new HM17(); // create object of class 
-    //         System.err.println("enter a number: ");
+    public static void main(String[] args) 
+        {
+            //call instance method using object
+            HM17 darshu = new HM17(); // create object of class 
+            System.err.println("enter a number: ");
 
-    //         Scanner sc = new Scanner(System.in); // create object
-    //         int n = sc.nextInt();
+            Scanner sc = new Scanner(System.in); // create object
+            int n = sc.nextInt();
 
-    //         darshu.isPalindrome(n);
-    //     }
+            darshu.isPalindrome(n);
+        }
 }
 //----------------------------------------------------------------------------------------------------------------------
 
