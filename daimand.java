@@ -35,5 +35,6 @@ public class daimand
             }
             System.out.println();
         }
-    }    
-}
+    }  
+}  
+
