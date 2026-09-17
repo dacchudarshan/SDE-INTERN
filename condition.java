@@ -43,10 +43,10 @@ public class condition
                         {
                             hexa = false;
                         }
-            // else 
-            // {
-            //     System.out.println("00000");
-            // }
+            else 
+            {
+                System.out.println("00000");
+            }
         }
         if(binary)
         {
