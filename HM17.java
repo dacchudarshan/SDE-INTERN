@@ -1,5 +1,5 @@
 public class HM17  
-{
+{ 
     // // 1) write a method to add two numbers (static using)
     // static int add(int a, int b) 
     // {
