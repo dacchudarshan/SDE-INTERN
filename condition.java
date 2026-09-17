@@ -3,16 +3,16 @@ public class condition
 {
     public static void main(String [] args)
     {
-        // byte a = 20;
-        // byte b = 12;
-        // if (a<=b)
-        // {
-        //     System.out.println(a + " Is Smaller");
-        // }
-        // else
-        // {
-        //     System.out.println(b+ " Is Smaller");
-        // }
+        byte a = 20;
+        byte b = 12;
+        if (a<=b)
+        {
+            System.out.println(a + " Is Smaller");
+        }
+        else
+        {
+            System.out.println(b+ " Is Smaller");
+        }
 
         Scanner sc = new Scanner(System.in);
 
