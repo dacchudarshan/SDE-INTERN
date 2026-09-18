@@ -1,4 +1,4 @@
-public class NestedloopPractice 
+public class NestedloopPractice     
 {
     public static void main(String[] args) 
     {
