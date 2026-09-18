@@ -29,7 +29,7 @@ public class NestedloopPractice
                 System.out.println();
             }
         } 
-        else 
+        else   
         {
             System.out.println("Invalid");
         }
