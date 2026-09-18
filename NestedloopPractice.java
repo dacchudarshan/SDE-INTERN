@@ -4,7 +4,7 @@ public class NestedloopPractice
     {
         int n = 7;
 
-        if (n > 0) 
+        if (n > 0)   
         {
             for (int i = 1; i <= n; i++) 
             {
