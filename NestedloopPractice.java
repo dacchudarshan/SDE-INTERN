@@ -10,8 +10,8 @@ public class NestedloopPractice
             {
                 if (i == 3) 
                 {
-                    continue;
-                }
+                    continue; 
+                } 
 
                 int j = 1;
 
