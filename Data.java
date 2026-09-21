@@ -16,7 +16,7 @@ public class days
 //because for feature use if i want you change data then i cant change all the 100 entires so we need variable then below is the code demonsatrate 
 class days
 {
-    public static void main(String[] args) 
+    public static void main(String[] args)   
     {
         int age = 3;
         System.out.println(age);
