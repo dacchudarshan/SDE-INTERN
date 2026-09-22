@@ -7,7 +7,7 @@ public class Number
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Select Number System:");
-        System.out.println("1. Binary");
+        System.out.println("1. Binary"); 
         System.out.println("2. Octal");
         System.out.println("3. Decimal");
         System.out.println("4. Hexadecimal");
