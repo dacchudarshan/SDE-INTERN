@@ -9,7 +9,7 @@ public class Number
         System.out.println("Select Number System:");
         System.out.println("1. Binary"); 
         System.out.println("2. Octal");
-        System.out.println("3. Decimal");
+        System.out.println("3. Decimal"); 
         System.out.println("4. Hexadecimal");
 
         System.out.print("Enter your choice: ");
