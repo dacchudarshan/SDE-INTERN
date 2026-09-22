@@ -1,6 +1,6 @@
 public class ObjectForEach 
 {
-     //1). no args no return type
+     //1). no args no return type 
     void greet()
     {
         System.err.println("Hello darshan");
