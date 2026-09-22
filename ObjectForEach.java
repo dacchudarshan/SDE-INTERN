@@ -9,7 +9,7 @@ public class ObjectForEach
     // 2). no args but no return type
     void printSum(int a, int b)
     {
-        System.err.println("sum: "+ (a+b));
+        System.err.println("sum: "+ (a+b));  
     }
 
     // 3). no args but return type
