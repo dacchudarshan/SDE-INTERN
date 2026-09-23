@@ -108,4 +108,3 @@ class Search
         System.out.println(searchElement(arr, 60)); // Output: false    
     }
 }
-
