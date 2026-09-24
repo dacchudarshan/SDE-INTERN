@@ -20,7 +20,7 @@ public class ObjectForEach
 
     // 4). args and return type
     int max(int x, int y)
-    {
+    { 
         if (x>y)
             return x;
         else
