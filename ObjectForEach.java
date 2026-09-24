@@ -23,7 +23,7 @@ public class ObjectForEach
     { 
         if (x>y)
             return x;
-        else
+        else 
             return y;
     }
     public static void main(String[] args) 
