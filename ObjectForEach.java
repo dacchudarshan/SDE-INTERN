@@ -1,4 +1,4 @@
-public class ObjectForEach     
+public class ObjectForEach      
 { 
      //1). no args no return type 
     void greet()  
