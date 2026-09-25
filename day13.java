@@ -15,7 +15,7 @@ public class day13
 
         System.err.println("Scenario 2: both using new ");
         String s3 = new String("java");
-        String s4 = new String("java");
+        String s4 = new String("java"); 
 
         System.err.println("S3 == S4: "+ (s3 == s4)); 
         System.err.println("S3.equals(S4): "+ (s3.equals(s4)));
