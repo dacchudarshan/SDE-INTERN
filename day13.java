@@ -5,7 +5,7 @@ public class day13
         System.err.println("--------------------------------------------------");
         
         System.err.println("Scenario 1: both string literals ");
-        String s1 = "java";
+        String s1 = "java"; 
         String s2 = "java";
 
         System.err.println("S1 == S2: "+ (s1 == s2));
