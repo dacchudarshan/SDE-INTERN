@@ -5,7 +5,7 @@ public class CircleCircumference
 
         float radius = 5;   
 
-        double circumference = 2 * 3.14 * radius;
+        double circumference = 2 * 3.14 * radius;  
 
         System.out.println("Radius = " + radius);
         System.out.println("Circumference = " + circumference);
