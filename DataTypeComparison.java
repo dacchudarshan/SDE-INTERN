@@ -4,7 +4,7 @@ public class DataTypeComparison
     {
         byte b  = 10;                
         short s = 20;              
-        int i = 30;                 
+        int i = 30;                  
         long l = 40L;                  
         float f = 50.5f;           
         double d = 60.5;                  
