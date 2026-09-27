@@ -2,7 +2,7 @@ public class DataTypeComparison
 {
     public static void main(String[] args) 
     {
-        byte b  = 10;               
+        byte b  = 10;                
         short s = 20;              
         int i = 30;                 
         long l = 40L;                  
