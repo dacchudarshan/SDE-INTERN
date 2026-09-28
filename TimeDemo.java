@@ -1,4 +1,5 @@
-public class TimeDemo {
+public class TimeDemo 
+{
     public static void main(String[] args) {
         long time = System.currentTimeMillis();  
   
