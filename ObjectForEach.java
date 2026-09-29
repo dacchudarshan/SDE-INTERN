@@ -4,7 +4,7 @@ public class ObjectForEach
     void greet()   
     {
         System.err.println("Hello darshan");
-    }
+    } 
 
     // 2). no args but no return type 
     void printSum(int a, int b)  
