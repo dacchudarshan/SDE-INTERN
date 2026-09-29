@@ -35,7 +35,7 @@ public class ObjectForEach
         //object 2
         ObjectForEach obj2 = new ObjectForEach();
         obj2.printSum(10, 20);
-
+ 
         //object 3
         ObjectForEach obj3 = new ObjectForEach();
         int sum = obj3.getNumber();
