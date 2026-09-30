@@ -14,7 +14,7 @@ public class DataTypeComparison
 
         System.out.println("");
 
-        System.out.println("=====BYTE + ALL=====");
+        System.out.println("=====BYTE + ALL====="); 
 
         System.out.println("byte + short   = " + (b + s));
         System.out.println("byte + int     = " + (b + i));
