@@ -3,7 +3,7 @@ public class patterens1
 {
     public static void main(String[] args) 
     {
-        // print the number in reverse order
+        // print the number in reverse order 
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the Number : ");
         int num = sc.nextInt();
