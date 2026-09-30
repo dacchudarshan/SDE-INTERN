@@ -1,4 +1,4 @@
-public class DataTypeComparison 
+public class DataTypeComparison  
 {
     public static void main(String[] args) 
     {
