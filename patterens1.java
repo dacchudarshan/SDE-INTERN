@@ -35,7 +35,7 @@ public class patterens1
             int num2 = (num1 % 10);
             count1++;
             num1 = num1 / 10;
-        }
+        } 
         System.out.println("The number of digits in the number is: " + count1);
 
 
