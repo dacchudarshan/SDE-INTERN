@@ -14,7 +14,7 @@ public class patterens1
             num = num / 10;
             System.out.println(digit);
         }
-        System.err.println("");
+        System.err.println(""); 
         System.out.println(num);
         System.out.println("loop ends if num = 0");
 
