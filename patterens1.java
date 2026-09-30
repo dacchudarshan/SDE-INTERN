@@ -12,7 +12,7 @@ public class patterens1
         { 
             int digit = num % 10; 
             num = num / 10;
-            System.out.println(digit);
+            System.out.println(digit);   
         }
         System.err.println(""); 
         System.out.println(num);
