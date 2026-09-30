@@ -9,7 +9,7 @@ public class patterens1
         int num = sc.nextInt();
 
         while (num>0)// 54321
-        {
+        { 
             int digit = num % 10; 
             num = num / 10;
             System.out.println(digit);
