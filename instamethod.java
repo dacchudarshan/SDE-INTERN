@@ -1,4 +1,4 @@
-public class instamethod 
+public class instamethod   
 {
     // demo of instance method  (create object access instance method)
 
