@@ -21,7 +21,8 @@ public class HOMEWORK
         // int original = 0;
 
         // // Second reverse: 12345 -> 54321
-        // while (reverse > 0) {
+        // while (reverse > 0) 
+        //{
         //     int digit = reverse % 10;
         //     original = original * 10 + digit;
         //     reverse = reverse / 10;
