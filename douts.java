@@ -1,4 +1,4 @@
-public class douts 
+public class douts   
 {    
     public static void main(String[] args)  
     {
