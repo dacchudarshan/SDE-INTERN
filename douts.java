@@ -13,7 +13,7 @@ public class douts
         { 
             System.err.println(index*2);
         }
-        
+         
         for(int index = 64/2; index >= 1; index/=12)
           
         {
