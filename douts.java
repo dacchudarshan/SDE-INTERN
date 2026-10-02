@@ -10,7 +10,7 @@ public class douts
         //multiplication in 5
         for(int index = 1; index <= 10; index+=2)
           
-        {
+        { 
             System.err.println(index*2);
         }
         
