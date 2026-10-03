@@ -4,7 +4,7 @@ public class condition
     public static void main(String [] args)
     {
         byte a = 20;
-        byte b = 12;
+        byte b = 12;  
         if (a<=b)
         {
             System.out.println(a + " Is Smaller");
