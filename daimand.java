@@ -6,7 +6,7 @@ public class daimand
 
         // Upper half of the diamond
         for (int i = 1; i <= n; i++) 
-        {
+        { 
             // Print leading spaces
             for (int j = i; j < n; j++) 
             {
