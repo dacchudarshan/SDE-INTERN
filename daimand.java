@@ -17,7 +17,7 @@ public class daimand
             {
                 System.out.print("*");  
             }
-            System.out.println();
+            System.out.println();  
         }
 
         // Lower half of the diamond
