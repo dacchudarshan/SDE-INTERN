@@ -1,4 +1,4 @@
-public class daimand 
+public class daimand   
 {
     public static void main(String[] args) 
     {
