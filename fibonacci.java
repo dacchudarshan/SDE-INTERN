@@ -8,7 +8,7 @@ public class fibonacci
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Enter the number of terms: ");
-        int n = sc.nextInt();
+        int n = sc.nextInt(); 
 
         int a = 0;
         int b = 1;
