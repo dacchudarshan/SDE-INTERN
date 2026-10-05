@@ -23,7 +23,7 @@ public class fibonacci
             int c = a + b;
             a = b;
             b = c;   
-            }
+            } 
             
     }
 }
