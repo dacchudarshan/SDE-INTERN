@@ -16,7 +16,7 @@ public class fibonacci
         System.out.println("Fibonacci Series till " + n + " terms:");
 
         for (int i = 1; i <= n; i++) 
-            {
+            { 
 
             System.out.print(a + " ");
 
