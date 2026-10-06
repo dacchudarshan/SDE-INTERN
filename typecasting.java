@@ -1,5 +1,5 @@
 // put smaller data into larger container 
-public class typecasting 
+public class typecasting  
 {
    public static void main(String[]args)
    {
