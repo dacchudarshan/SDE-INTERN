@@ -13,7 +13,7 @@ public class values
         else 
         {
             System.out.println("Numbers are not equal.");
-        }
+        } 
     
 
         //int day = "saturday"; incompatible types: String cannot be converted to int
