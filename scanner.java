@@ -7,7 +7,7 @@ public class scanner
         System.err.println("addition of two numbes: ");
         int a, b, c;
 
-        Scanner sc = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in); 
 
         System.out.print("Enter num1: ");
         int num1 = sc.nextInt();
