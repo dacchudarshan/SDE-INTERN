@@ -28,7 +28,7 @@ class AreaOfTraingle
     {
         System.err.println("area of  traingle: ");
 
-        int h, b;
+        int h, b; 
 
         Scanner aot = new Scanner(System.in);
 
