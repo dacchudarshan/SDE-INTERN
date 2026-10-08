@@ -2,7 +2,7 @@ import java.util.*;
 
 public class scanner  
 {
-    public static void main(String[] args) 
+    public static void main(String[] args)   
     {
         System.err.println("addition of two numbes: ");
         int a, b, c;
