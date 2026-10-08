@@ -15,7 +15,7 @@ public class scanner
         System.out.print("Enter num2: ");
         int num2 = sc.nextInt();
 
-        int result = num1+num2;
+        int result = num1+num2; 
 
         System.err.println("Total numbers: "+ result);
 
