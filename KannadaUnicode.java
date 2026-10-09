@@ -9,4 +9,4 @@ public class KannadaUnicode
             System.out.printf("U+%04X = %c%n", i, (char) i);
         }
     }
-}
+} 
