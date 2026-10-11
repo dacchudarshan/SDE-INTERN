@@ -23,7 +23,7 @@ public class scanner
 }
 
 class AreaOfTraingle
-{
+{ 
     public static void main(String[] args) 
     {
         System.err.println("area of  traingle: "); 
