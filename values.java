@@ -16,7 +16,7 @@ public class values
         } 
     
 
-        //int day = "saturday"; incompatible types: String cannot be converted to int
+        //int day = "saturday"; incompatible types: String cannot be converted to int 
 
         String day = "saturday";
         if (day.equals(day)) // works for objects and strings is class that 
