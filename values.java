@@ -21,7 +21,7 @@ public class values
         String day = "saturday";
         if (day.equals(day)) // works for objects and strings is class that  
         { 
-            System.out.println("Today is Saturday.");
+            System.out.println("Today is Saturday."); 
         } 
         else  
         {
