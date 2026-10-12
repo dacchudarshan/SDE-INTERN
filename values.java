@@ -1,6 +1,6 @@
 public class values     
 { 
-    public static void main(String[] args) 
+    public static void main(String[] args)  
     {
         int num1 = 10;// values
         int num2 = 10;// values 
