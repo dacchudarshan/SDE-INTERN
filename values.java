@@ -12,7 +12,7 @@ public class values
         } 
         else 
         { 
-            System.out.println("Numbers are not equal.");
+            System.out.println("Numbers are not equal."); 
         } 
     
 
