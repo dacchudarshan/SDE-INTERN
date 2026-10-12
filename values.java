@@ -23,7 +23,7 @@ public class values
         { 
             System.out.println("Today is Saturday.");
         } 
-        else 
+        else  
         {
             System.out.println("Today is not Saturday.");
         }
