@@ -11,7 +11,7 @@ public class values
             System.out.println("Both numbers are equal.");
         } 
         else 
-        {
+        { 
             System.out.println("Numbers are not equal.");
         } 
     
