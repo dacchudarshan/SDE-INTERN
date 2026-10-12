@@ -4,7 +4,7 @@ public class values
     {
         int num1 = 10;// values
         int num2 = 10;// values 
-
+ 
         //if (num1 == num2) // works for primitive data types
         // if (num.equals(num2)) object invokting   
         {
