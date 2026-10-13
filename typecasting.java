@@ -7,6 +7,6 @@ public class typecasting
     byte result = (byte)num; 
  
     System.out.println("result :"+ result); 
-   } 
+   }  
 }
  
