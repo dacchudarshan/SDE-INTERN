@@ -1,4 +1,4 @@
-// put smaller data into larger container 
+// put smaller data into larger container  
 public class typecasting  
 {
    public static void main(String[]args) 
