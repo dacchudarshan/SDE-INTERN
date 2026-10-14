@@ -6,7 +6,7 @@ public class opertor
           
         System.err.println("");
         System.err.println("count ++");  
-        System.err.println("count++: "+ count++);
+        System.err.println("count++: "+ count++); 
         System.err.println("count++: "+ count);
         System.err.println("count++: "+ count++);
         System.err.println("count++: "+ count++);
