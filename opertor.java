@@ -1,4 +1,4 @@
-public class opertor 
+public class opertor  
 {
     public static void main(String[] args) 
     {
