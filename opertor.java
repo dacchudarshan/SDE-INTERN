@@ -71,7 +71,7 @@ public class opertor
         int num1 = 11;
         System.err.println(num1++ + num++);
 
-        System.err.println("");
+        System.err.println(""); 
         System.err.println("subtrack");
         int num2 = 12;
         System.err.println(num2++ - ++num2);
