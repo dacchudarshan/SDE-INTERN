@@ -78,7 +78,7 @@ public class opertor
 
         System.err.println("");
         System.err.println("pre");
-        int num3 = 20;
+        int num3 = 20; 
         System.err.println(++num3 + --num3);
 
         System.err.println("");
