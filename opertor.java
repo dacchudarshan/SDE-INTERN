@@ -32,7 +32,7 @@ public class opertor
         System.err.println("-- count");
         System.err.println("--count: "+ --count);
         System.err.println("--count: "+ count);
-        System.err.println("--count: "+ --count);
+        System.err.println("--count: "+ --count); 
         System.err.println("--count: "+ count);
         System.err.println("--count: "+ count);
             
