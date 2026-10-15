@@ -8,7 +8,7 @@ public class daimand
         for (int i = 1; i <= n; i++) 
         { 
             // Print leading spaces
-            for (int j = i; j < n; j++) 
+            for (int j = i; j < n; j++)  
             {
                 System.out.print(" ");
             }
