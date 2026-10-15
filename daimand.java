@@ -19,7 +19,7 @@ public class daimand
             }
             System.out.println();  
         }
-
+ 
         // Lower half of the diamond
         for (int i = n - 1; i >= 1; i--) 
         {
