@@ -23,7 +23,7 @@ public class daimand
         // Lower half of the diamond
         for (int i = n - 1; i >= 1; i--) 
         { 
-            // Print leading spaces
+            // Print leading spaces 
             for (int j = n; j > i; j--) 
             {
                 System.out.print(" ");
