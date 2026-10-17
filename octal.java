@@ -37,7 +37,7 @@ public class octal
         for (int i = octal.length() - 1; i >= 0; i--) 
         {  
             int digit = octal.charAt(i) - '0';
-            decimalValue += digit * base;
+            decimalValue += digit * base; 
             base *= 8;
         }
         System.out.println("The decimal equivalent is: " + decimalValue);
