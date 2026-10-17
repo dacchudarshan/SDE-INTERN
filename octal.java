@@ -40,7 +40,7 @@ public class octal
             decimalValue += digit * base; 
             base *= 8;
         }
-        System.out.println("The decimal equivalent is: " + decimalValue);
+        System.out.println("The decimal equivalent is: " + decimalValue); 
 
 
 
