@@ -1,6 +1,6 @@
 import java.util.Scanner;
 public class octal 
-{
+{ 
     public static void main(String[] args) 
     { 
         // //octal number checking
