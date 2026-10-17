@@ -35,7 +35,7 @@ public class octal
         int base = 1; // 8^0
 
         for (int i = octal.length() - 1; i >= 0; i--) 
-        {
+        { 
             int digit = octal.charAt(i) - '0';
             decimalValue += digit * base;
             base *= 8;
