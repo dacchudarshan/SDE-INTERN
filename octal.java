@@ -18,7 +18,7 @@ public class octal
         //         decimal = false;
         //         break;
         //     }
-        // }
+        // } 
         // if (decimal) 
         // {
         //     System.out.println("yes it is the octal and number 8");
