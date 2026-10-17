@@ -2,7 +2,7 @@ import java.util.Scanner;
 public class octal 
 {
     public static void main(String[] args) 
-    {
+    { 
         // //octal number checking
         // Scanner sc = new Scanner(System.in);
         // System.out.print("Enter an octal number: ");
