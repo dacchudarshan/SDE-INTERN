@@ -13,7 +13,7 @@ public class octal
         // for (int i = 0; i < octal.length(); i++) 
         // {
         //     char c = octal.charAt(i);
-        //     if (c < '0' || c > '7')  
+        //     if (c < '0' || c > '7')     
         //     {
         //         decimal = false;
         //         break;
