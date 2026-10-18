@@ -8,5 +8,5 @@ public class typecasting
    
     System.out.println("result :"+ result);  
    }  
-}
+} 
  
