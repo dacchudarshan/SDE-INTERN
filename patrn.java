@@ -18,7 +18,7 @@ public class patrn
         for (int i = 1; i <= 5; i++)
         {
             for (int j = 1; j <= 5; j++)
-            {
+            { 
                 ++count;
                 // normal print
                 // System.out.print(count + " ");
