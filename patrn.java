@@ -10,7 +10,7 @@ public class patrn
                 System.out.print( i+j + " ");
             }  
             System.out.println(); 
-        }
+        } 
  
 
     // 2) count patterns
