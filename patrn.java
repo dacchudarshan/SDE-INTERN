@@ -38,7 +38,7 @@ public class patrn
                 // System.out.print(j + " ");  
                 System.out.print(j + " * ");
     }   
-            System.out.println();
+            System.out.println(); 
         }
 
     // 4) 5 cross 5 box print 1 coloum all and second coloum 1 less and so on
