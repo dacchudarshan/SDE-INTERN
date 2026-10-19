@@ -30,9 +30,9 @@ public class patrn
             System.out.println(" ");
         }
 
-    // 3) 5 cross 5 box print 1 coloum all and second coloum all and so on
+    // 3) 5 cross 5 box print 1 coloum all and second col oum all and so on
         for (int i = 1; i <= 5; i++) 
-        {
+        { 
             for (int j = 1; j <= i; j++)
             {
                 // System.out.print(j + " ");  
