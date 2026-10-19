@@ -9,7 +9,7 @@ public class patrn
             {
                 System.out.print( i+j + " ");
             }  
-            System.out.println();
+            System.out.println(); 
         }
 
 
