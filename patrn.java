@@ -11,7 +11,7 @@ public class patrn
             }  
             System.out.println(); 
         }
-
+ 
 
     // 2) count patterns
         int count = 0;
