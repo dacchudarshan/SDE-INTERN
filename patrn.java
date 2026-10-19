@@ -31,7 +31,7 @@ public class patrn
         }
 
     // 3) 5 cross 5 box print 1 coloum all and second coloum all and so on
-        for (int i = 1; i <= 5; i++)
+        for (int i = 1; i <= 5; i++) 
         {
             for (int j = 1; j <= i; j++)
             {
