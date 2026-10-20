@@ -32,7 +32,7 @@ class AreaOfTraingle
 
         Scanner aot = new Scanner(System.in);
 
-        System.out.print("Enter nu1: ");
+        System.out.print("Enter nu1: "); 
         h = aot.nextInt();
 
         System.out.print("Enter num2: ");
