@@ -18,7 +18,7 @@ public class scanner
         int result = num1+num2;  
 
         System.err.println("Total numbers: "+ result);    
-
+ 
     }
 }
 
