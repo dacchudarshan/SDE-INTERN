@@ -26,7 +26,7 @@ class AreaOfTraingle
 { 
     public static void main(String[] args) 
     {
-        System.err.println("area of  traingle: "); 
+        System.err.println("area of  traingle: ");  
 
         int h, b; 
 
