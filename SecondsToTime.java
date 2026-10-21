@@ -15,7 +15,7 @@ public class SecondsToTime
         System.out.println(seconds + " seconds"); 
     }
 }
-
+ 
 //sec to time include days 
 class SecondsTodays
 {
