@@ -4,7 +4,7 @@ public class SecondsToTime
     public static void main(String[] args) 
     {
 
-        int totalSeconds = 2600;
+        int totalSeconds = 2600;  
 
         int hours = totalSeconds / 3600;
         int minutes = (totalSeconds % 3600) / 60;
