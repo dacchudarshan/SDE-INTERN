@@ -12,7 +12,7 @@ public class SecondsToTime
 
         System.out.println(hours + " hours");
         System.out.println(minutes + " minutes");    
-        System.out.println(seconds + " seconds");
+        System.out.println(seconds + " seconds"); 
     }
 }
 
