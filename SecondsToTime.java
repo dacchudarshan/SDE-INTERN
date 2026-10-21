@@ -7,7 +7,7 @@ public class SecondsToTime
         int totalSeconds = 2600;  
 
         int hours = totalSeconds / 3600;
-        int minutes = (totalSeconds % 3600) / 60;
+        int minutes = (totalSeconds % 3600) / 60; 
         int seconds = totalSeconds % 60; 
 
         System.out.println(hours + " hours");
