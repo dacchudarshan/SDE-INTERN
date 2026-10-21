@@ -11,7 +11,7 @@ public class SecondsToTime
         int seconds = totalSeconds % 60;
 
         System.out.println(hours + " hours");
-        System.out.println(minutes + " minutes");
+        System.out.println(minutes + " minutes");    
         System.out.println(seconds + " seconds");
     }
 }
