@@ -19,7 +19,7 @@ class size
         value++;
         System.out.println(value);
     }
-}
+}  
 
 class size
 {
