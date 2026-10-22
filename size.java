@@ -26,7 +26,7 @@ class size
     public static void main(String[] args)  
     {
         int x = -5; 
-        System.out.println(x);
+        System.out.println(x); 
         
         int x1 = 5;
         System.out.println(x1);
