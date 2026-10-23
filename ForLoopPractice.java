@@ -8,7 +8,8 @@ public class ForLoopPractice
         // 1) Incrementing by 3
         System.out.println("1) Incrementing by 3:");
 
-        for (int i = 1; i <= 20; i = i + 3) { 
+        for (int i = 1; i <= 20; i = i + 3) 
+        { 
             System.out.println(i);
         }
 
