@@ -62,7 +62,8 @@ public class ForLoopPractice
         // 7) Cube of numbers 1 to 10
         System.out.println("\n7) Cube of numbers 1 to 10:");
 
-        for (int i = 1; i <= 10; i++) {
+        for (int i = 1; i <= 10; i++) 
+        {
             System.out.println(i + " * " + i + " * " + i + " = " + (i * i * i));
         }
 
