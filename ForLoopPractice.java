@@ -16,7 +16,8 @@ public class ForLoopPractice
         // 2) Decrementing by 5
         System.out.println("\n2) Decrementing by 5:");
 
-        for (int i = 50; i >= 1; i = i - 5) {
+        for (int i = 50; i >= 1; i = i - 5) 
+        {
             System.out.println(i);
         }
 
