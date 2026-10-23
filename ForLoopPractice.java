@@ -35,7 +35,8 @@ public class ForLoopPractice
         // 4) Print 1 to 100
         System.out.println("\n4) Print 1 to 100:");
 
-        for (int i = 1; i <= 100; i++) {
+        for (int i = 1; i <= 100; i++) 
+        {
             System.out.println(i);
         }
 
