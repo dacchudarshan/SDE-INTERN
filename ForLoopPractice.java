@@ -44,7 +44,8 @@ public class ForLoopPractice
         // 5) Print multiples of 5
         System.out.println("\n5) Multiples of 5:");
 
-        for (int i = 5; i <= 100; i = i + 5) {
+        for (int i = 5; i <= 100; i = i + 5) 
+        {
             System.out.println(i);
         }
 
