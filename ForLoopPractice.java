@@ -26,7 +26,8 @@ public class ForLoopPractice
         // 3) Reverse alphabet
         System.out.println("\n3) Reverse Alphabet:");
 
-        for (char ch = 'Z'; ch >= 'A'; ch--) {
+        for (char ch = 'Z'; ch >= 'A'; ch--) 
+        {
             System.out.println(ch);
         }
 
