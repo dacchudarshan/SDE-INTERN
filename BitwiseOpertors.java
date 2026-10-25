@@ -5,7 +5,7 @@ public class BitwiseOpertors
         int x = 10;
         int y = 6;
         int z;
-        System.err.println("AND: "+(x & y));
+        System.err.println("AND: "+(x & y)); 
         System.err.println("OR: "+ (x | y));
         System.err.println("XOR: "+ (x ^ y));
         System.err.println("NOT X: "+ (~x));
