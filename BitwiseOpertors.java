@@ -9,7 +9,7 @@ public class BitwiseOpertors
         System.err.println("OR: "+ (x | y));
         System.err.println("XOR: "+ (x ^ y));
         System.err.println("NOT X: "+ (~x));
-        System.err.println("NOT Y: "+ (~y));
+        System.err.println("NOT Y: "+ (~y)); 
 
         System.err.println("left shift: ");
         int a = 10;
