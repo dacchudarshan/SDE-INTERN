@@ -14,7 +14,7 @@ public class BitwiseOpertors
         System.err.println("left shift: ");
         int a = 10;
         System.err.println("shift by 1: "+(a << 1));
-        System.err.println("shift by 2: "+(a << 2));
+        System.err.println("shift by 2: "+(a << 2)); 
         System.err.println("shift by 3: "+(a << 3));
 
         System.err.println("right shift: ");
