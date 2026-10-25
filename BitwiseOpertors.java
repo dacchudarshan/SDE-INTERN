@@ -21,7 +21,7 @@ public class BitwiseOpertors
         int b = -10;
         System.err.println("Shift by 1: "+ (b >> 1));
         System.err.println("Shift by 2: "+ (b >> 2));
-        System.err.println("Shift by 3: "+ (b >> 3));
+        System.err.println("Shift by 3: "+ (b >> 3)); 
 
         System.err.println("unsigned right shift: ");
         int c = 10;
