@@ -2,7 +2,7 @@ public class BitwiseOpertors
 {
     public static void main(String[] args) 
     {
-        int x = 10;
+        int x = 10;  
         int y = 6;
         int z;
         System.err.println("AND: "+(x & y)); 
