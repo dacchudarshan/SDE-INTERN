@@ -1,4 +1,4 @@
-public class BitwiseOpertors 
+public class BitwiseOpertors   
 {
     public static void main(String[] args) 
     {
