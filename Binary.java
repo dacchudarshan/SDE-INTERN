@@ -22,6 +22,7 @@ public class float
 }  
 
 
+
 class Binary  
 {
     public static void main(String[] args)
