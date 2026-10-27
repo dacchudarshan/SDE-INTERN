@@ -2,8 +2,8 @@ public class float
 {
     public static void main(String[]args)
     {
-        float a = 20.5f;
-        float b = 3.5f;  
+        float a = 20.5f;   
+        float b = 3.5f;    
      
         System.err.println("values: "+a%b);   
 
