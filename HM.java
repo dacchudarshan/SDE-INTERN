@@ -1,5 +1,5 @@
 public class HOMEWORK      
-{
+{ 
     public static void main(String[] args ) 
     {
         //1.reverse a number twice to get the original number
