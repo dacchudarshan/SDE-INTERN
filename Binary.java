@@ -32,3 +32,5 @@ class Binary
         System.out.println("Binary: " + Long.toBinaryString(Double.doubleToRawLongBits(num)));
     }
 }
+
+
