@@ -1,4 +1,5 @@
 public class float 
+    
 {
     public static void main(String[]args)
     {
