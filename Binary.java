@@ -1,6 +1,6 @@
 public class float 
     
-{
+{ 
     public static void main(String[]args)
     {
         float a = 20.5f;   
