@@ -1,4 +1,5 @@
 public class DataTypeComparison  
+    
 {
     public static void main(String[] args) 
     {
