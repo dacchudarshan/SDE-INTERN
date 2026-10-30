@@ -2,6 +2,7 @@ public class DataTypeComparison
     
 {
     public static void main(String[] args) 
+    
     {
         byte b  = 10;                
         short s = 20;              
