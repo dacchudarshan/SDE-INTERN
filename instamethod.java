@@ -17,7 +17,7 @@ public class instamethod
         instamethod m = new instamethod();
 
         int c = m.max(a, b); // calling instance method using object
-        System.err.println("maximum: "+ c); // maximum: 20
+        System.err.println("maximum: "+ c); // maximum: 20  
 
     }
 }
