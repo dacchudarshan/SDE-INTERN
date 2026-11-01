@@ -9,7 +9,7 @@ public class instamethod
         else
             return y;// return y = 20
     }   
-
+       
     // Method to display values
     public static void main(String[] args) 
     {
