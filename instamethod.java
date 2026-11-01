@@ -15,7 +15,7 @@ public class instamethod
     {
         int a = 10, b = 20;
         instamethod m = new instamethod();
-
+ 
         int c = m.max(a, b); // calling instance method using object
         System.err.println("maximum: "+ c); // maximum: 20  
 
