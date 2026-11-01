@@ -3,7 +3,7 @@ public class instamethod
     // demo of instance method  (create object access instance method) 
 
     int max(int x, int y) // instance method
-    {
+    {  
         if (x>y) // compare two numbers x = 10, y = 20
             return x; // return x = 10
         else
