@@ -1,6 +1,6 @@
 public class instamethod   
 { 
-    // demo of instance method  (create object access instance method)
+    // demo of instance method  (create object access instance method) 
 
     int max(int x, int y) // instance method
     {
