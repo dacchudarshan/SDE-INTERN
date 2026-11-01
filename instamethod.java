@@ -10,7 +10,7 @@ public class instamethod
             return y;// return y = 20
     }   
        
-    // Method to display values
+    // Method to display values         
     public static void main(String[] args) 
     {
         int a = 10, b = 20;
