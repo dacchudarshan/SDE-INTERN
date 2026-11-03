@@ -335,6 +335,12 @@ public class twoDArrays
 
         // 14. Sum of both diagonals
         System.out.println("\n14. Sum of Both Diagonals (LeetCode 1572)");
-        System.out.println(diagonalSum(array));
+        int[][] mat1 = {{1,2,3},{4,5,6},{7,8,9}};
+        int[][] mat2 = {{1,1,1,1},{1,1,1,1},{1,1,1,1},{1,1,1,1}};
+        int[][] mat3 = {{5}};
+
+        System.out.println(diagonalSum(mat1)); 
+        System.out.println(diagonalSum(mat2)); 
+        System.out.println(diagonalSum(mat3)); 
     }
 }
