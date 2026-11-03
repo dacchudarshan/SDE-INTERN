@@ -186,6 +186,163 @@ public class IntegerArrayPractice
         return result;
     }
 
+    // 18. Count sign changes
+    static int countSignChanges(int[] arr) 
+    {
+        int count = 0;
+
+        for (int i = 1; i < arr.length; i++) 
+            {
+            if ((arr[i - 1] > 0 && arr[i] < 0) ||
+                (arr[i - 1] < 0 && arr[i] > 0)) 
+                {
+                count++;
+                }
+            }
+        return count;
+    }
+
+    // 19. Over with the most runs
+    static int mostRuns(int[] runs) 
+    {
+        int max = runs[0];
+        int over = 1;
+
+        for (int i = 1; i < runs.length; i++) 
+            {
+            if (runs[i] > max) 
+                {
+                max = runs[i];
+                over = i + 1;
+                }
+            }   
+        return over;
+    }
+
+    // 20. Subjects where Ravi scored more than Sita
+    static int countHigherMarks(int[] ravi, int[] sita) 
+    {
+        int count = 0;
+
+        for (int i = 0; i < ravi.length; i++) 
+            {
+            if (ravi[i] > sita[i]) 
+                {
+                count++;
+                }
+            }
+        return count;
+    }
+
+    // 21. Bigger number at each position
+    static int[] biggerArray(int[] a, int[] b) 
+    {
+        int[] result = new int[a.length];
+
+        for (int i = 0; i < a.length; i++) 
+            {
+            if (a[i] > b[i]) 
+                {
+                result[i] = a[i];
+                }
+             else 
+                {
+                result[i] = b[i];
+                }
+            }
+        return result;
+    }
+
+    // 22. Numbers in first array not present in second
+    static int[] differenceArray(int[] a, int[] b) 
+    {
+        int count = 0;
+
+        for (int i = 0; i < a.length; i++) 
+            {
+            boolean found = false;
+
+            for (int j = 0; j < b.length; j++) 
+                {
+                if (a[i] == b[j]) 
+                    {
+                    found = true;
+                    break;
+                    }
+                }
+
+            if (!found) 
+                {
+                count++;
+                }
+            }
+
+        int[] result = new int[count];
+        int k = 0;
+
+        for (int i = 0; i < a.length; i++) 
+            {
+            boolean found = false;
+
+            for (int j = 0; j < b.length; j++) 
+                {
+                if (a[i] == b[j]) 
+                    {
+                    found = true;
+                    break;
+                    }
+                }
+
+            if (!found) 
+                {
+                result[k] = a[i];
+                k++;
+                }
+        }
+        return result;
+    }
+
+    // 23. Total money saved
+    static int moneySaved(int[] shopA, int[] shopB) 
+    {
+        int saved = 0;
+
+        for (int i = 0; i < shopA.length; i++) 
+            {
+            if (shopA[i] > shopB[i]) 
+                {
+                saved += shopA[i] - shopB[i];
+                }
+            }
+        return saved;
+    }
+
+    // 24. Player with the highest total
+    static int highestPlayer(int[] p1, int[] p2, int[] p3) 
+    {
+        int total1 = 0, total2 = 0, total3 = 0;
+
+        for (int i = 0; i < p1.length; i++) 
+            {
+            total1 += p1[i];
+            total2 += p2[i];
+            total3 += p3[i];
+            }
+
+        if (total1 >= total2 && total1 >= total3) 
+            {
+            return 1;
+            }
+        else if (total2 >= total1 && total2 >= total3) 
+            {
+            return 2;
+            } 
+        else 
+            {
+            return 3;
+            }
+    }
+
     public static void main(String[] args) 
     {
         IntegerArrayPractice obj = new IntegerArrayPractice();
@@ -240,5 +397,32 @@ public class IntegerArrayPractice
 
         System.out.println("17. " + Arrays.toString(
             obj.digitSum(new int[]{123, 45, 9})));
+
+          System.out.println("18. " +
+            countSignChanges(new int[]{3, -2, -5, 4, 6, -1}));
+
+        System.out.println("19. " +
+            mostRuns(new int[]{6, 12, 4, 15, 9}));
+
+        System.out.println("20. " +countHigherMarks(
+                new int[]{78, 65, 90, 55, 82},
+                new int[]{70, 80, 85, 60, 82}));
+
+        System.out.println("21. " +Arrays.toString(biggerArray(
+                new int[]{4, 9, 2, 7},
+                new int[]{6, 3, 8, 7})));
+
+        System.out.println("22. " +Arrays.toString(differenceArray(
+                new int[]{1, 4, 6, 8, 10},
+                new int[]{4, 8, 12})));
+
+        System.out.println("23. " +moneySaved(
+                new int[]{100, 250, 80, 40},
+                new int[]{90, 260, 70, 45}));
+
+        System.out.println("24. " +highestPlayer(
+                new int[]{30, 45, 20},
+                new int[]{50, 10, 40},
+                new int[]{25, 35, 30}));
     }
 }

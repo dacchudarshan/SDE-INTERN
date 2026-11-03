@@ -55,6 +55,8 @@ public class repetataion
         // int avg = a + b + c / 3;
         // System.err.println("avarage: "+ avg);
 
+
+
         
             
     }
