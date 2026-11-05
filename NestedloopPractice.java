@@ -9,7 +9,7 @@ public class NestedloopPractice
         {
             for (int i = 1; i <= n; i++) 
             {
-                if (i == 3) 
+                if (i == 3)   
                 {
                     continue; 
                 } 
