@@ -21,7 +21,7 @@ public class NestedloopPractice
                     if (j == 5) 
                     {
                         break;
-                    }
+                    } 
 
                     System.out.print("* ");
                     j++;
