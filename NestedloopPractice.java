@@ -26,7 +26,6 @@ public class NestedloopPractice
                     System.out.print("* ");
                     j++;
                 }
-
                 System.out.println();
             }
         } 
