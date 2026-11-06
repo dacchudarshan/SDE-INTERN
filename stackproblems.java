@@ -9,35 +9,30 @@ public class stackproblems
     {
        if (exp == null)
            return false;
-       
+        
        myStack myStack = new myStack(exp.length());
        boolean isBalanced = true;
 
        for (int i = 0; i < exp.length(); i++)
        {
         char ch = exp.charAt(i);
-        if(ch =='(' || ch == '{' || ch == '[')
+        if(ch =='(')
         {
             myStack.push(ch);
+            continue;
         }
-        else if(ch == ')' || ch == '}' || ch == ']')
+        else if(ch == ')')
         {
-            if(myStack.peek() == 0)
+            if(myStack.peek() == -1)
             {
                 isBalanced = false;
                 break;
             }
-            char topChar = (char)myStack.pop();
-            if((ch == ')' && topChar != '(') ||
-               (ch == '}' && topChar != '{') ||
-               (ch == ']' && topChar != '['))
-            {
-                isBalanced = false;
-                break;
-            }
+            myStack.pop();
         }
-       }
-       return isBalanced;
+        }
+    return isBalanced;
     }
 }
+
 
