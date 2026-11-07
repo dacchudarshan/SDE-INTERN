@@ -49,6 +49,7 @@ public class opertor
         System.err.println("count2: "+count1); //13
         
         System.err.println("");
+        
         int a = 13;
         int b = ++a;
         System.err.println("a: "+b);
