@@ -78,18 +78,21 @@ public class opertor
  
         System.err.println("");
         System.err.println("pre");
+        
         int num3 = 20; 
         System.err.println(++num3 + --num3);
 
         System.err.println("");
         int x = 5;
         int y = 10;
+        
         System.err.println(x++ + ++y);
         System.err.println("a: "+x);
         System.err.println("b: "+y);
 
         System.err.println("");
         int p = 4;
+        
         System.err.println(++p + p++);
         System.err.println("p: "+p);
 
