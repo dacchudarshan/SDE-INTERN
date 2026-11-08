@@ -26,7 +26,7 @@ public class daimand
         { 
             // Print leading spaces 
             for (int j = n; j > i; j--)   
-            { 
+            {   
                 System.out.print(" ");
             }
             // Print asterisks 
