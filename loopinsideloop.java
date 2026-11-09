@@ -19,20 +19,20 @@ public class loopinsideloop
     //     }
 
         // //2). do while inside do while
-        //  System.err.println("");
-        // System.out.println("2). do while inside do while");
-        // int i = 1;
-        // do
-        // {
-        //     int j = 1;
-        //     do
-        //     {
-        //         System.out.print( " * ");
-        //         j++;
-        //     } while (j <= 4);
-        //     System.out.println();
-        //     i++;
-        // } while (i <= 4);
+        System.err.println("");
+        System.out.println("2). do while inside do while");
+        int i = 1;
+        do
+        {
+            int j = 1;
+            do
+            {
+                System.out.print( " * ");
+                j++;
+            } while (j <= 4);
+            System.out.println();
+            i++;
+        } while (i <= 4);
         
         // //3). for inside while 
         System.err.println("");
