@@ -47,9 +47,7 @@ class Array1
     {
        A();
     }
-
-}. 
-
+}
 
 class operators
 {
