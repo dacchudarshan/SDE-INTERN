@@ -95,11 +95,11 @@ class operators
         boolean x = true;
         boolean y = false;
 
-        // System.out.println(" : " +   (x * y));
-        // System.out.println(": " +    ( x + y));
-        // System.out.println(" : " + (x-y));
-        // System.out.println(" : " + (x/y));
-        // System.out.println(" : " + (x%y));
+        System.out.println(" : " +   (x * y));
+        System.out.println(": " +    ( x + y));
+        System.out.println(" : " + (x-y));
+        System.out.println(" : " + (x/y));
+        System.out.println(" : " + (x%y));
 
         // Float to int
 
