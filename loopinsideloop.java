@@ -2,21 +2,21 @@ public class loopinsideloop
 {
     public static void main(String []args)
     {
-    //     //1).  while inside while
-    //     System.err.println("");
-    //     System.out.println("1).  while inside while");
-    //     int i = 1;
-    //     while (i <= 4)
-    //     {
-    //         int j = 1;
-    //         while (j <= 4)
-    //         {
-    //             System.out.print( "A" + j + " ");
-    //             j++;
-    //         }
-    //         System.out.println();
-    //         i++;
-    //     }
+        //1).  while inside while
+        System.err.println("");
+        System.out.println("1).  while inside while");
+        int i = 1;
+        while (i <= 4)
+        {
+            int j = 1;
+            while (j <= 4)
+            {
+                System.out.print( "A" + j + " ");
+                j++;
+            }
+            System.out.println();
+            i++;
+        }
 
         // //2). do while inside do while
         System.err.println("");
