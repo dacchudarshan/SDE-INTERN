@@ -35,18 +35,18 @@ public class loopinsideloop
         // } while (i <= 4);
         
         // //3). for inside while 
-        //  System.err.println("");
-        // System.out.println("3). for inside while");
-        // int i = 1;
-        // while (i <= 4)
-        // {
-        //     for (int j = 1; j <= 4; j++)
-        //     {
-        //         System.out.print( " * ");
-        //     }
-        //     System.out.println();
-        //     i++;
-        // }
+        System.err.println("");
+        System.out.println("3). for inside while");
+        int i = 1;
+        while (i <= 4)
+        {
+            for (int j = 1; j <= 4; j++)
+            {
+                System.out.print( " * ");
+            }
+            System.out.println();
+            i++;
+        }
 
         // //4). for inside do while 
         System.err.println("");
