@@ -153,25 +153,25 @@ public class HM17
     // }
 
 
-    // // 5.1) count number of digits in a number (instance using)
-    // int countDigits(int n) 
-    // {
-    //     int count = 0;
-    //     while(n!=0)
-    //     {
-    //         n = n/10;
-    //         count++;
-    //     }
-    //     return count;
-    // }
-    // public static void main(String[] args) 
-    // {
-    //     //call instance method using object
-    //     HM17 darshu = new HM17(); // create object of class
+    // 5.1) count number of digits in a number (instance using)
+    int countDigits(int n) 
+    {
+        int count = 0;
+        while(n!=0)
+        {
+            n = n/10;
+            count++;
+        }
+        return count;
+    }
+    public static void main(String[] args) 
+    {
+        //call instance method using object
+        HM17 darshu = new HM17(); // create object of class
 
-    //     int count = darshu.countDigits(12345);
-    // //     System.out.println("Instance count of digits: "+ count); //5
-    // }
+        int count = darshu.countDigits(12345);
+    //     System.out.println("Instance count of digits: "+ count); //5
+    }
 //----------------------------------------------------------------------------------------------------------------------
     // 6) palindrome number check (static using)
     static boolean isPalindrome(int n)
