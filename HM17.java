@@ -205,24 +205,24 @@ public class HM17
     // }
 
 
-    // // 6.1) palindrome number check (instance using)
-    // void isPalindrome(int n)
-    // {
-    //     int original = n; // store the original number
-    //     int reverse = 0; // store the reverse number
-    //     while(n != 0) // loop until n becomes 0 
-    //     {
-    //         int digit = n % 10;      // get the last digit
-    //         reverse = reverse * 10 + digit; // append the digit to reverse
-    //         n = n / 10; // remove the last digit from n
-    //     }
-    //     //return original == reverse; // check if original number is equal to reverse number
+    // 6.1) palindrome number check (instance using)
+    void isPalindrome(int n)
+    {
+        int original = n; // store the original number
+        int reverse = 0; // store the reverse number
+        while(n != 0) // loop until n becomes 0 
+        {
+            int digit = n % 10;      // get the last digit
+            reverse = reverse * 10 + digit; // append the digit to reverse
+            n = n / 10; // remove the last digit from n
+        }
+        //return original == reverse; // check if original number is equal to reverse number
     
-    //     if(original==reverse)
-    //         System.out.println( " is a palindrome number");
-    //     else
-    //         System.out.println( " is not a palindrome number");
-    // }
+        if(original==reverse)
+            System.out.println( " is a palindrome number");
+        else
+            System.out.println( " is not a palindrome number");
+    }
 
     public static void main(String[] args) 
         {
