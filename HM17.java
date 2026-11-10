@@ -115,24 +115,24 @@ public class HM17
     // }
 
 
-    // // 4.1) max of three numbers (instance using)
-    // int maxOfThree(int a, int b, int c) 
-    // {
-    //     if(a>b && a>c)
-    //         return a;
-    //     else if(b>c)
-    //         return b;
-    //     else
-    //         return c;
-    // }
-    // public static void main(String[] args) 
-    // {
-    //     //call instance method using object
-    //     HM17 darshu = new HM17(); // create object of class 
+    // 4.1) max of three numbers (instance using)
+    int maxOfThree(int a, int b, int c) 
+    {
+        if(a>b && a>c)
+            return a;
+        else if(b>c)
+            return b;
+        else
+            return c;
+    }
+    public static void main(String[] args) 
+    {
+        //call instance method using object
+        HM17 darshu = new HM17(); // create object of class 
 
-    //     int max = darshu.maxOfThree(40, 20, 5);
-    //     System.out.println("Instance max of three numbers: "+ max); //40
-    // }
+        int max = darshu.maxOfThree(40, 20, 5);
+        System.out.println("Instance max of three numbers: "+ max); //40
+    }
 //----------------------------------------------------------------------------------------------------------------------
     // 5) count number of digits in a number (static using)
     static int countDigits(int n) 
