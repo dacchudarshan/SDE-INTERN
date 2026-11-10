@@ -173,36 +173,36 @@ public class HM17
     // //     System.out.println("Instance count of digits: "+ count); //5
     // }
 //----------------------------------------------------------------------------------------------------------------------
-    // // 6) palindrome number check (static using)
-    // static boolean isPalindrome(int n)
-    // {
-    //     int original = n; // store the original number
-    //     int reverse = 0; // store the reverse number
-    //     while(n!=0) // loop until n becomes 0
-    //     {
-    //         int digit = n % 10;      // get the last digit
-    //         reverse = reverse * 10 + digit; // append the digit to reverse
-    //         n = n / 10; // remove the last digit from n
-    //     }
-    //     return original == reverse; // check if original number is equal to reverse number
-    // }
-    // public static void main(String[] args) 
-    // {
+    // 6) palindrome number check (static using)
+    static boolean isPalindrome(int n)
+    {
+        int original = n; // store the original number
+        int reverse = 0; // store the reverse number
+        while(n!=0) // loop until n becomes 0
+        {
+            int digit = n % 10;      // get the last digit
+            reverse = reverse * 10 + digit; // append the digit to reverse
+            n = n / 10; // remove the last digit from n
+        }
+        return original == reverse; // check if original number is equal to reverse number
+    }
+    public static void main(String[] args) 
+    {
 
-    //     //call static method using class name
-    //     // int number = 12321;  //hard code
+        //call static method using class name
+        // int number = 12321;  //hard code
 
-    //     //using scanner
-    //     System.err.println("enter a number: ");
-    //     Scanner sc = new Scanner(System.in); // create object
-    //     int number = sc.nextInt();
+        //using scanner
+        System.err.println("enter a number: ");
+        Scanner sc = new Scanner(System.in); // create object
+        int number = sc.nextInt();
 
-    //     if(isPalindrome(number))
-    //         System.out.println(number+" is a palindrome number");
-    //     else
-    //         System.out.println(number+" is not a palindrome number");
+        if(isPalindrome(number))
+            System.out.println(number+" is a palindrome number");
+        else
+            System.out.println(number+" is not a palindrome number");
         
-    // }
+    }
 
 
     // 6.1) palindrome number check (instance using)
