@@ -134,23 +134,23 @@ public class HM17
     //     System.out.println("Instance max of three numbers: "+ max); //40
     // }
 //----------------------------------------------------------------------------------------------------------------------
-    // // 5) count number of digits in a number (static using)
-    // static int countDigits(int n) 
-    // {
-    //     int count = 0;
-    //     while(n!=0)
-    //     {
-    //         n = n/10;
-    //         count++;
-    //     }
-    //     return count;
-    // }
-    // public static void main(String[] args) 
-    // {
-    //     //call static method using class name
-    //     int count = countDigits(12345);
-    //     System.out.println("Static count of digits: "+ count); //5
-    // }
+    // 5) count number of digits in a number (static using)
+    static int countDigits(int n) 
+    {
+        int count = 0;
+        while(n!=0)
+        {
+            n = n/10;
+            count++;
+        }
+        return count;
+    }
+    public static void main(String[] args) 
+    {
+        //call static method using class name
+        int count = countDigits(12345);
+        System.out.println("Static count of digits: "+ count); //5
+    }
 
 
     // 5.1) count number of digits in a number (instance using)
