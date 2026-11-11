@@ -14,20 +14,20 @@ public class HM17
     // }   
 
 
-    // // 1.1) write a method to add two numbers (instance using)
-    // int add(int a, int b) 
-    // {                   
-    //     return a + b;
-    // }   
+    // 1.1) write a method to add two numbers (instance using)
+    int add(int a, int b) 
+    {                   
+        return a + b;
+    }   
  
-    // public static void main(String[] args) 
-    // {
-    //     //call instance method using object
-    //     HM17 darshu = new HM17(); // create object of class
+    public static void main(String[] args) 
+    {
+        //call instance method using object
+        HM17 darshu = new HM17(); // create object of class
 
-    //     int sum = darshu.add(70, 20);
-    //     System.out.println("instance sum: "+ sum); //90
-    // }
+        int sum = darshu.add(70, 20);
+        System.out.println("instance sum: "+ sum); //90
+    }
 
 //--------------------------------------------------------------------------------------------------------------------------
     // 2) write a method to return type  square of numbers (static using)
