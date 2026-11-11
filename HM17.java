@@ -1,17 +1,17 @@
 public class HM17    
 { 
-    // // 1) write a method to add two numbers (static using)
-    // static int add(int a, int b) 
-    // {
-    //     return a + b;
-    // }
+    // 1) write a method to add two numbers (static using)
+    static int add(int a, int b) 
+    {
+        return a + b;
+    }
 
-    // public static void main(String[] args) 
-    // {
-    //     //call static method using class name
-    //     int sum = add(10, 40);
-    //     System.out.println(" static sum: "+ sum); //50
-    // }   
+    public static void main(String[] args) 
+    {
+        //call static method using class name
+        int sum = add(10, 40);
+        System.out.println(" static sum: "+ sum); //50
+    }   
 
 
     // 1.1) write a method to add two numbers (instance using)
