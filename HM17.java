@@ -44,20 +44,20 @@ public class HM17
     // }
 
 
-    // // 2.1) write a method to return type  square of numbers (instance using)
-    // int square(int a) 
-    // {
-    //     return a * a;  //10*10=100
-    // }
+    // 2.1) write a method to return type  square of numbers (instance using)
+    int square(int a) 
+    {
+        return a * a;  //10*10=100
+    }
 
-    // public static void main(String[] args) 
-    // {
-    //     //call instance method using object
-    //     HM17 darshu = new HM17(); // create object of class
+    public static void main(String[] args) 
+    {
+        //call instance method using object
+        HM17 darshu = new HM17(); // create object of class
 
-    //     int sq = darshu.square(10);
-    //     System.out.println("instance square: "+ sq);
-    // }
+        int sq = darshu.square(10);
+        System.out.println("instance square: "+ sq);
+    }
 
 //--------------------------------------------------------------------------------------------------------------------------
     // 3) even or odd number (static using)
