@@ -60,21 +60,21 @@ public class HM17
     // }
 
 //--------------------------------------------------------------------------------------------------------------------------
-    // // 3) even or odd number (static using)
-    // static void EvenOdd(int a)
-    // {
-    //     if(a%2==0)
-    //         System.out.println(a+" is even number");
-    //     else
-    //         System.out.println(a+" is odd number"); 
+    // 3) even or odd number (static using)
+    static void EvenOdd(int a)
+    {
+        if(a%2==0)
+            System.out.println(a+" is even number");
+        else
+            System.out.println(a+" is odd number"); 
 
-    // }
-    // public static void main(String[] args) 
-    // {
-    //     //call static method using class name
-    //     EvenOdd(10); //10 is even number
-    //     EvenOdd(15); //15 is odd number
-    // }
+    }
+    public static void main(String[] args) 
+    {
+        //call static method using class name
+        EvenOdd(10); //10 is even number
+        EvenOdd(15); //15 is odd number
+    }
 
 
     // 3.1) even or odd number (instance using)
