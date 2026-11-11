@@ -30,18 +30,18 @@ public class HM17
     // }
 
 //--------------------------------------------------------------------------------------------------------------------------
-    // // 2) write a method to return type  square of numbers (static using)
-    // static int square(int a) 
-    // {
-    //     return a * a;  //10*10=100
-    // } 
+    // 2) write a method to return type  square of numbers (static using)
+    static int square(int a) 
+    {
+        return a * a;  //10*10=100
+    } 
 
-    // public static void main(String[] args) 
-    // {
-    //     //call static method using class name
-    //     int square = square(10); 
-    //     System.out.println("Static square: "+ square); //100
-    // }
+    public static void main(String[] args) 
+    {
+        //call static method using class name
+        int square = square(10); 
+        System.out.println("Static square: "+ square); //100
+    }
 
 
     // 2.1) write a method to return type  square of numbers (instance using)
