@@ -96,23 +96,23 @@ public class HM17
     // }
 
 //----------------------------------------------------------------------------------------------------------------------
-    // // 4) max of three numbers (static using)
-    // static int maxOfThree(int a, int b, int c) 
-    // {
-    //     if(a>b && a>c)
-    //         return a;
-    //     else if(b>c)
-    //         return b;
-    //     else
-    //         return c;
-    // }
-    // public static void main(String[] args) 
-    // {
-    //     //call static method using class name
-    //     int max = maxOfThree(40, 20, 5);
-    //     System.out.println("Static max of three numbers: "+ max); //40
+    // 4) max of three numbers (static using)
+    static int maxOfThree(int a, int b, int c) 
+    {
+        if(a>b && a>c)
+            return a;
+        else if(b>c)
+            return b;
+        else
+            return c;
+    }
+    public static void main(String[] args) 
+    {
+        //call static method using class name
+        int max = maxOfThree(40, 20, 5);
+        System.out.println("Static max of three numbers: "+ max); //40
         
-    // }
+    }
 
 
     // 4.1) max of three numbers (instance using)
