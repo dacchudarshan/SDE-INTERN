@@ -23,7 +23,7 @@ public class Number
 
         if (choice == 1)
         {
-            decimal = Integer.parseInt(number, 2);
+            decimal = Integer.parseInt(number, 2);  
             System.out.println("Selected: Binary");
         }
 
