@@ -43,7 +43,7 @@ public class Number
         {
             decimal = Integer.parseInt(number, 16);
             System.out.println("Selected: Hexadecimal");
-        }
+        } 
 
         else
         {
