@@ -12,6 +12,7 @@ public class stackPrice
             {
                 minPrice = price;
             } 
+                
             else if (price - minPrice > maxPrice) 
             {
                 maxPrice = price - minPrice;
