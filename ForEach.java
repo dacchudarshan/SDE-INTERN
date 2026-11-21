@@ -1,20 +1,20 @@
-// // for each loop in java
-// public class ForEach 
-// {
-//         static void traverse(int arr[]) 
-//         {
-//         for(int i : arr)
-//         {
-//             System.out.print(i + " ");
-//         } 
-//         }
-//         public static void main(String[] args) 
-//         {
-//             //traverse(new int[]{1,2,3,4});   //ananimous array
-//             int arr[] = {1,2,3,4};
-//             traverse(arr);
-//         } 
-// }
+// for each loop in java
+public class ForEach 
+{
+        static void traverse(int arr[]) 
+        {
+        for(int i : arr)
+        {
+            System.out.print(i + " ");
+        } 
+        }
+        public static void main(String[] args) 
+        {
+            //traverse(new int[]{1,2,3,4});   //ananimous array
+            int arr[] = {1,2,3,4};
+            traverse(arr);
+        } 
+}
 
 
 // for each loop in java
