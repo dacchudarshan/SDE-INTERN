@@ -62,30 +62,30 @@
 // }
 
 
-// // find the max
-// class Max 
-// {
-//     static void findMax(int arr[]) 
-//     {
-//         int max = arr[0];
+// find the max
+class Max 
+{
+    static void findMax(int arr[]) 
+    {
+        int max = arr[0];
 
-//         for (int i : arr) 
-//         {
-//             if (i > max) 
-//             {
-//                 max = i;
-//             }
-//         }
+        for (int i : arr) 
+        {
+            if (i > max) 
+            {
+                max = i;
+            }
+        }
 
-//         System.out.println("Max: " + max);
-//     }
+        System.out.println("Max: " + max);
+    }
 
-//     public static void main(String[] args) 
-//     {
-//         int arr[] = {223, 2, 123456, 23, 4};
-//         findMax(arr);
-//     }
-// }
+    public static void main(String[] args) 
+    {
+        int arr[] = {223, 2, 123456, 23, 4};
+        findMax(arr);
+    }
+}
 
 // search an element in an array arr[10,20,3o0,40,50] target = 20
 class Search 
