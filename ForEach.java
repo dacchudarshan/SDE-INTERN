@@ -40,26 +40,26 @@
 // }
 
 
-// class sum 
-// {
-//     static void findSum(int arr[]) 
-//     {
-//         int sum = 0;
+class sum 
+{
+    static void findSum(int arr[]) 
+    {
+        int sum = 0;
 
-//         for (int i : arr) 
-//         {
-//             sum += i;
-//         }
+        for (int i : arr) 
+        {
+            sum += i;
+        }
 
-//         System.out.println("Sum: " + sum);
-//     }
+        System.out.println("Sum: " + sum);
+    }
 
-//     public static void main(String[] args) 
-//     {
-//         int arr[] = {1, 2, 3, 4};
-//         findSum(arr);
-//     }
-// }
+    public static void main(String[] args) 
+    {
+        int arr[] = {1, 2, 3, 4};
+        findSum(arr);
+    }
+}
 
 
 // find the max
