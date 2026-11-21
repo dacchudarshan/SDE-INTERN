@@ -17,27 +17,27 @@
 // }
 
 
-// // for each loop in java
-// class ForEach2 
-// {
-//     static void traverse(int arr[]) 
-// {
-//     int count = 0;
+// for each loop in java
+class ForEach2 
+{
+    static void traverse(int arr[]) 
+{
+    int count = 0;
 
-//     for (int i : arr)
-//     {
-//         System.out.print(i);
-//         count++;
+    for (int i : arr)
+    {
+        System.out.print(i);
+        count++;
 
-//         if (count < arr.length)
-//         {
-//             System.out.print(" ");
-//         }
-//     }
+        if (count < arr.length)
+        {
+            System.out.print(" ");
+        }
+    }
 
-//     System.out.println();
-// }
-// }
+    System.out.println();
+}
+}
 
 
 class sum 
