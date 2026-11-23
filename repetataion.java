@@ -2,26 +2,26 @@ public class repetataion
 {
     public static void main(String[] args) 
     {
-//         System.err.println(Byte.MIN_VALUE);
-//         System.err.println(Byte.MAX_VALUE);
+        System.err.println(Byte.MIN_VALUE);
+        System.err.println(Byte.MAX_VALUE);
 
-//         System.err.println(Short.MIN_VALUE);
-//         System.err.println(Short.MAX_VALUE);
+        System.err.println(Short.MIN_VALUE);
+        System.err.println(Short.MAX_VALUE);
 
-//         System.err.println(Integer.MIN_VALUE);
-//         System.err.println(Integer.MAX_VALUE);
+        System.err.println(Integer.MIN_VALUE);
+        System.err.println(Integer.MAX_VALUE);
 
-//         System.err.println(Float.MIN_VALUE);
-//         System.err.println(Float.MAX_VALUE);
+        System.err.println(Float.MIN_VALUE);
+        System.err.println(Float.MAX_VALUE);
 
-//         System.err.println(Double.MIN_VALUE);
-//         System.err.println(Double.MAX_VALUE);
+        System.err.println(Double.MIN_VALUE);
+        System.err.println(Double.MAX_VALUE);
 
-//         System.err.println(Long.MIN_VALUE);
-//         System.err.println(Long.MAX_VALUE);
+        System.err.println(Long.MIN_VALUE);
+        System.err.println(Long.MAX_VALUE);
 
-//         System.err.println((int)Character.MIN_VALUE);
-//         System.err.println((int)Character.MAX_VALUE);
+        System.err.println((int)Character.MIN_VALUE);
+        System.err.println((int)Character.MAX_VALUE);
 //---------------------------------------------------------------
 
         // area of rectangle
