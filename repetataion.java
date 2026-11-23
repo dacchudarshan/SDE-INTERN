@@ -41,24 +41,19 @@ public class repetataion
         // System.err.println("Area: "+ area +"\nCircumerence: "+circumference);
 
 
-        // // print ascii charter 
-        // for(char num = 'A'; num <= 'Z'; num++)
-        // {
-        //     System.err.println(num + "="+(int)num);
-        // }
+        // print ascii charter 
+        for(char num = 'A'; num <= 'Z'; num++)
+        {
+            System.err.println(num + "="+(int)num);
+        }
 
-        // //print avrage
-        // int a = 10;
-        // int b = 20;
-        // int c = 30;
+        //print avrage
+        int a = 10;
+        int b = 20;
+        int c = 30;
 
-        // int avg = a + b + c / 3;
-        // System.err.println("avarage: "+ avg);
-
-
-
-        
-            
+        int avg = a + b + c / 3;
+        System.err.println("avarage: "+ avg);      
     }
 
 
