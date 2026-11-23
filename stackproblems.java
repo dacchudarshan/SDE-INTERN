@@ -1,10 +1,5 @@
 public class stackproblems 
 {
-    public static void main(String[] args)
-    {
-
-    }
-
     boolean isBalancedExpression(String exp)
     {
        if (exp == null)
@@ -33,6 +28,12 @@ public class stackproblems
         }
     return isBalanced;
     }
+    
+    public static void main(String[] args)
+    {
+        isBalancedExpression();
+    }
+
 }
 
 
