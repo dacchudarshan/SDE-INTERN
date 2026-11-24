@@ -29,21 +29,21 @@ public class EvenOdd
     //     return a%2==0; //true or false
     // }
 
-    // public static void main(String[] args) 
-    // {
-    //     Scanner sc = new Scanner(System.in);
-    //     System.out.println("Enter a number: ");
-    //     int a = sc.nextInt();
+    public static void main(String[] args) 
+    {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter a number: ");
+        int a = sc.nextInt();
 
-    //     boolean isEven = EvenOdd(a);
+        boolean isEven = EvenOdd(a);
 
-    //     //printing the result
-    //     if(isEven)//true
+        //printing the result
+        if(isEven)//true
 
-    //         System.out.println(a+" is even number");
-    //     else
-    //         System.out.println(a+" is odd number");
-    // }
+            System.out.println(a+" is even number");
+        else
+            System.out.println(a+" is odd number");
+    }
 
 
 
