@@ -1,3 +1,4 @@
+// only one main in the entire file there is a rule but i entired more then main method but it will not work and when i run program i will comment on remaining main methods thats it 
 import java.util.Scanner;
 public class EvenOdd 
 {
