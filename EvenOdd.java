@@ -22,12 +22,12 @@ public class EvenOdd
     // }
 
     
-    // // even or odd number (void return type) instance using
+    // even or odd number (void return type) instance using
     
-    // static boolean EvenOdd(int a)
-    // {
-    //     return a%2==0; //true or false
-    // }
+    static boolean EvenOdd(int a)
+    {
+        return a%2==0; //true or false
+    }
 
     public static void main(String[] args) 
     {
