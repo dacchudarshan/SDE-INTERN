@@ -1,14 +1,14 @@
 import java.util.Scanner;
 public class EvenOdd 
 {
-    // // even or odd number (static using) statice void
-    // static void EvenOdd(int a)
-    // {
-    //     if(a%2==0)
-    //         System.out.println(a+" is even number");
-    //     else
-    //         System.out.println(a+" is odd number");
-    // }   
+    // even or odd number (static using) statice void
+    static void EvenOdd(int a)
+    {
+        if(a%2==0)
+            System.out.println(a+" is even number");
+        else
+            System.out.println(a+" is odd number");
+    }   
 
 
     public static void main(String[] args) 
