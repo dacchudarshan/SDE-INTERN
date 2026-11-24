@@ -11,15 +11,15 @@ public class EvenOdd
     // }   
 
 
-    // public static void main(String[] args) 
-    // {
-    //    Scanner sc = new Scanner(System.in);
-    //    System.out.println("Enter a number: ");
-    //    int a = sc.nextInt();
+    public static void main(String[] args) 
+    {
+       Scanner sc = new Scanner(System.in);
+       System.out.println("Enter a number: ");
+       int a = sc.nextInt();
 
-    //    EvenOdd(a);
+       EvenOdd(a);
   
-    // }
+    }
 
     
     // even or odd number (void return type) instance using
