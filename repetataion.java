@@ -1,5 +1,5 @@
 public class repetataion 
-{
+{         
     public static void main(String[] args)      
     {
         System.err.println(Byte.MIN_VALUE);
