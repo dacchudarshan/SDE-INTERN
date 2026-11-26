@@ -4,31 +4,31 @@ public class octal
     public static void main(String[] args) 
     {   
         // //octal number checking 
-        // Scanner sc = new Scanner(System.in);
-        // System.out.print("Enter an octal number: ");
-        // String octal = sc.nextLine();
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter an octal number: ");
+        String octal = sc.nextLine();
 
-        // boolean decimal = true;
+        boolean decimal = true;
 
-        // for (int i = 0; i < octal.length(); i++) 
-        // {
-        //     char c = octal.charAt(i); 
-        //     if (c < '0' || c > '7')     
-        //     {
-        //         decimal = false;
-        //         break;
-        //     }
-        // } 
-        // if (decimal) 
-        // {
-        //     System.out.println("yes it is the octal and number 8");
-        // } 
-        // else 
-        // {
-        //     System.out.println("Invalid octal number.");
-        // }
+        for (int i = 0; i < octal.length(); i++) 
+        {
+            char c = octal.charAt(i); 
+            if (c < '0' || c > '7')     
+            {
+                decimal = false;
+                break;
+            }
+        } 
+        if (decimal) 
+        {
+            System.out.println("yes it is the octal and number 8");
+        } 
+        else 
+        {
+            System.out.println("Invalid octal number.");
+        }
 
-        // sc.close();
+        sc.close();
 
         // octal to decimal conversion
         int decimalValue = 0;
