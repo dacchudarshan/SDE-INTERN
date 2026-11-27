@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Calculatorapp
+public class Calculatorapp // just for pratice
     
 {
 
