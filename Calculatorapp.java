@@ -60,7 +60,7 @@ public class Calculatorapp // just for pratice
                     } 
                 else 
                     {
-                    System.out.println("Cannot divide by zero");
+                    System.out.println("Cannot divide by zero");  
                     }
                 break;
 
