@@ -31,19 +31,19 @@ public class HOMEWORK
         System.out.println("Output: " + original);
 
 
-        // //2. Another approach to reverse a number twice to get the original number
-        // Scanner sc = new Scanner(System.in);
+        //2. Another approach to reverse a number twice to get the original number
+        Scanner sc = new Scanner(System.in);
 
-        // System.out.print("Enter number: ");
-        // int num = sc.nextInt();
+        System.out.print("Enter number: ");
+        int num = sc.nextInt();
 
-        // int reverse = 0;
+        int reverse = 0;
 
-        // for (int n = num; n > 0; n = n / 10) 
-        // {
-        //     int digit = n % 10;
-        //     reverse = reverse * 10 + digit;
-        // }
+        for (int n = num; n > 0; n = n / 10) 
+        {
+            int digit = n % 10;
+            reverse = reverse * 10 + digit;
+        }
 
         // int result = 0;
 
