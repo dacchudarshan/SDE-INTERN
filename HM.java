@@ -28,7 +28,7 @@ public class HOMEWORK
             reverse = reverse / 10;
         }
 
-        // System.out.println("Output: " + original);
+        System.out.println("Output: " + original);
 
 
         // //2. Another approach to reverse a number twice to get the original number
