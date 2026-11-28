@@ -11,22 +11,22 @@ public class HOMEWORK
 
         int reverse = 0;
 
-        // // First reverse: 54321 -> 12345
-        // while (num > 0) {
-        //     int digit = num % 10; 
-        //     reverse = reverse * 10 + digit;
-        //     num = num / 10;
-        // }
+        // First reverse: 54321 -> 12345
+        while (num > 0) {
+            int digit = num % 10; 
+            reverse = reverse * 10 + digit;
+            num = num / 10;
+        }
 
-        // int original = 0;
+        int original = 0;
 
-        // // Second reverse: 12345 -> 54321
-        // while (reverse > 0) 
-        //{
-        //     int digit = reverse % 10;
-        //     original = original * 10 + digit;
-        //     reverse = reverse / 10;
-        // }
+        // Second reverse: 12345 -> 54321
+        while (reverse > 0) 
+        {
+            int digit = reverse % 10;
+            original = original * 10 + digit;
+            reverse = reverse / 10;
+        }
 
         // System.out.println("Output: " + original);
 
