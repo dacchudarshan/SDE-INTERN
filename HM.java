@@ -45,15 +45,15 @@ public class HOMEWORK
             reverse = reverse * 10 + digit;
         }
 
-        // int result = 0;
+        int result = 0;
 
-        // for (int n = reverse; n > 0; n = n / 10) 
-        // {
-        //     int digit = n % 10;
-        //     result = result * 10 + digit;
-        // }
+        for (int n = reverse; n > 0; n = n / 10) 
+        {
+            int digit = n % 10;
+            result = result * 10 + digit;
+        }
 
-        // System.out.println("Output: " + result);
+        System.out.println("Output: " + result);
 
         // //3. using while loop to reverse a number twice to get the original number
 
